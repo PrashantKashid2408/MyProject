@@ -6,3 +6,12 @@ D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.Assem
 D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.csproj.CoreCompileInputs.cache
 D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.dll
 D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.pdb
+D:\MyProject\AdaniCall.Utility\bin\Debug\net472\AdaniCall.Utility.dll
+D:\MyProject\AdaniCall.Utility\bin\Debug\net472\AdaniCall.Utility.pdb
+D:\MyProject\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.csproj.AssemblyReference.cache
+D:\MyProject\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.AssemblyInfoInputs.cache
+D:\MyProject\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.AssemblyInfo.cs
+D:\MyProject\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.csproj.CoreCompileInputs.cache
+D:\MyProject\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.dll
+D:\MyProject\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.pdb

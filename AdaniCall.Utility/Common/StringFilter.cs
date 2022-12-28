@@ -296,7 +296,7 @@ namespace AdaniCall.Utility
                         return PhoneNo;
                 }
 	        }
-	        catch (Exception ex)
+	        catch 
 	        {
                 if (Message != "")
                     return Message;

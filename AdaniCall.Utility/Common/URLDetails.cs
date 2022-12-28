@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Configuration;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
@@ -34,7 +33,7 @@ namespace AdaniCall.Utility.Common
                     else
                         protocol = "http";
                 }
-                catch (Exception ex)
+                catch 
                 {
                     protocol = "https";
                 }
@@ -56,13 +55,13 @@ namespace AdaniCall.Utility.Common
                         uri.Append(port.ToString());
                     }
                 }
-                catch (Exception ex)
+                catch 
                 {
                 }
                 
                 return (uri + "/").ToString();
             }
-            catch (Exception ex)
+            catch 
             {
                 return "";
             }

@@ -580,7 +580,15 @@ margin-left: -1em;*/
     line-height: 26px;
     margin: 0px;
 }
-
+.call-btnContainer {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    background: url(../images/container-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .tnc-container p {
     color: #272727;
     font-size: 16px;
@@ -594,3 +602,39 @@ margin-left: -1em;*/
     /* Inside Terms & Conditions Dialog */
     #divTnC .bootstrap-dialog-header {width: 100%;}
 /* End Privacy Policy */
+
+
+#divConversationCall .modal-header .bootstrap-dialog-title {
+    font-size: 30px;
+}
+
+#divConversationCall .modal-body .bootstrap-dialog-message {
+    font-size: 30px;
+    text-align: center;
+    color: #212529;
+}
+
+#divConversationCall .modal-header {
+    background-color: #ffc107;
+}
+
+#divConversationCall .modal-footer {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+    #divConversationCall .modal-footer .btn {
+        width: auto;
+        font-size: 25px;
+        margin: 0px;
+        line-height: 1.5;
+        border-radius: 0.25rem !important;
+    }
+
+        #divConversationCall .modal-footer .btn.btn-danger {
+            margin-right: 10px;
+        }
+
+        #divConversationCall .modal-footer .btn.btn-success {
+            margin-left: 10px;
+        }

@@ -32,7 +32,7 @@ namespace AdaniCall.Utility
                     }
                 }
             }
-            catch (Exception ex)
+            catch 
             {
                 return "";
             }

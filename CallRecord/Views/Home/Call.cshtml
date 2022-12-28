@@ -21,28 +21,28 @@
     <title>@ViewBag.Title</title>
     <link rel="shortcut icon" href="~/images/favicon.ico">
     <link href="~/css/style.css?v=9" rel="stylesheet">
-
+    <link href="~/css/style_landing.css" rel="stylesheet" />
     <script src="~/js/jquery-3.6.0.min.js"></script>
     <script src="~/Scripts/common/global.js"></script>
     <script src="~/Scripts/common/common.js?v=28"></script>
-    <script src="~/js/common.js?v=28"></script>
+    <script src="~/js/common.js?v=31"></script>
     <script src="~/js/camvas.js"></script>
     <script src="~/js/pico.js"></script>
-    <script src="~/js/index.js?v=28"></script>
-    <script>
-        $(document).ready(function () {
-            // for disabled right click
-            $(this).bind("contextmenu", function (e) {
-                e.preventDefault();
-            });
-            // for disabled browser back
-            window.history.pushState(null, "", window.location.href);
-            window.onpopstate = function () {
+    <script src="~/js/index.js?v=29"></script>
+    @*<script>
+            $(document).ready(function () {
+                // for disabled right click
+                $(this).bind("contextmenu", function (e) {
+                    e.preventDefault();
+                });
+                // for disabled browser back
                 window.history.pushState(null, "", window.location.href);
-            };
+                window.onpopstate = function () {
+                    window.history.pushState(null, "", window.location.href);
+                };
 
-        });
-    </script>
+            });
+        </script>*@
 </head>
 
 <body style="background: url(../images/container-bg.png) no-repeat; background-position: center; background-size: cover;">
@@ -52,6 +52,51 @@
             <div class="clearfix"></div>
         </div>
         <div class="clearfix"></div>
+        <div class="call-btnContainer">
+            <div class="cust-container">
+                <div class="cust-container-p20">
+                    <!-- Logo WIth Title -->
+                    <div class="cust-header">
+                        <div class="cust-header-title">
+                            <h1 class="titleH1">How may we help you?</h1>
+                        </div>
+                    </div>
+                    <!-- END Logo WIth Title -->
+                    <div class="clearfix"></div>
+                    <div class="bubbles-bg-container">
+                        <div>
+                            <figure id="infraFormulationsProjectsvg">
+
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1920" preserveAspectRatio="xMinYMin meet">
+
+                                    <image width="1080" height="1920" xlink:href="../../images/bubbles-bg.png" />
+                                    <g class="infraFormulationsHoverGroup" opacity="1">
+                                        <a onclick="conversationCall()" class="infraformulationsimgclick" style="pointer-events:none">
+                                            <rect opacity="0" fill="#ffffff" rx="50%" y="720" x="293" width="445" height="445"></rect>
+                                        </a>
+                                    </g>
+                                </svg>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cust-footer custBGcolor" style="padding: 0px;">
+                <div class="cust-footer-container">
+                    <div class="cust-footer-container-inner">
+                        <div class="fl">
+                            <span style="color: #000000; font-size: 12px; line-height: 29px; display: inline-block;">Version 1.0.1 | Updated Dec. 29, 2022 </span>
+                        </div>
+                        <div class="fr">
+                            <div class="cust-footer-gophygital-logo" style="padding-top: 4px; padding-bottom: 4px;"> <button class="links footerLink" style="border: 0px; background: none; color: #007bff !important; outline:0px;" onclick="tnc();">Terms And Conditions</button> </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
         <div class="video_container_holder">
             <div class="video_container">
                 <div class="video_container_inner">
@@ -88,6 +133,8 @@
                         <li>
                             <span>
                                 <button id="hangup-call-button" type="button" class="btn2" style="display:none;"><img src="~/images/button-icon/hangcall_ic.svg" alt="hangcall_ic.svg" /> Hang up</button>
+                                <button id="hdnhangup-call-button" type="button" style="visibility:hidden;height:0px; padding: 0px; border: 0px; line-height: 0px; position: absolute;"></button>
+
                             </span>
                         </li>
                         <li>
@@ -152,6 +199,16 @@
             <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
             [[MESSAGE]]
         </div>
+    </script>
+    <script>
+        $("#initialize-call-agent").click();
+    </script>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $(".infraformulationsimgclick").removeAttr("style");
+            }, 7000);
+        });
     </script>
 </body>
 </html>

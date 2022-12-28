@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\AdaniTeams\\AdaniCall.Business\\AdaniCall.Business.csproj": {}
+    "D:\\MyProject\\AdaniCall.Business\\AdaniCall.Business.csproj": {}
   },
   "projects": {
-    "D:\\Project\\AdaniTeams\\AdaniCall.Business\\AdaniCall.Business.csproj": {
+    "D:\\MyProject\\AdaniCall.Business\\AdaniCall.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\AdaniTeams\\AdaniCall.Business\\AdaniCall.Business.csproj",
+        "projectUniqueName": "D:\\MyProject\\AdaniCall.Business\\AdaniCall.Business.csproj",
         "projectName": "AdaniCall.Business",
-        "projectPath": "D:\\Project\\AdaniTeams\\AdaniCall.Business\\AdaniCall.Business.csproj",
-        "packagesPath": "C:\\Users\\pankaj.kakara\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\AdaniTeams\\AdaniCall.Business\\obj\\",
+        "projectPath": "D:\\MyProject\\AdaniCall.Business\\AdaniCall.Business.csproj",
+        "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\AdaniCall.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pankaj.kakara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prashant.kashid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,20 +26,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
-              "D:\\Project\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
-                "projectPath": "D:\\Project\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj"
+              "D:\\MyProject\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
+                "projectPath": "D:\\MyProject\\AdaniCall.Entity\\AdaniCall.Entity.csproj"
               },
-              "D:\\Project\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
-                "projectPath": "D:\\Project\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj"
+              "D:\\MyProject\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
+                "projectPath": "D:\\MyProject\\AdaniCall.Resources\\AdaniCall.Resources.csproj"
               },
-              "D:\\Project\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
-                "projectPath": "D:\\Project\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj"
+              "D:\\MyProject\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
+                "projectPath": "D:\\MyProject\\AdaniCall.Utility\\AdaniCall.Utility.csproj"
               }
             }
           }
@@ -53,24 +53,24 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
+    "D:\\MyProject\\AdaniCall.Entity\\AdaniCall.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
+        "projectUniqueName": "D:\\MyProject\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
         "projectName": "AdaniCall.Entity",
-        "projectPath": "D:\\Project\\AdaniTeams\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
-        "packagesPath": "C:\\Users\\pankaj.kakara\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\AdaniTeams\\AdaniCall.Entity\\obj\\",
+        "projectPath": "D:\\MyProject\\AdaniCall.Entity\\AdaniCall.Entity.csproj",
+        "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\AdaniCall.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pankaj.kakara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prashant.kashid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -79,7 +79,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {
@@ -102,24 +102,24 @@
               "version": "[12.0.2, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
+    "D:\\MyProject\\AdaniCall.Resources\\AdaniCall.Resources.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
+        "projectUniqueName": "D:\\MyProject\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
         "projectName": "AdaniCall.Resources",
-        "projectPath": "D:\\Project\\AdaniTeams\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
-        "packagesPath": "C:\\Users\\pankaj.kakara\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\AdaniTeams\\AdaniCall.Resources\\obj\\",
+        "projectPath": "D:\\MyProject\\AdaniCall.Resources\\AdaniCall.Resources.csproj",
+        "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\AdaniCall.Resources\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pankaj.kakara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prashant.kashid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,7 +128,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {
@@ -145,24 +145,24 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
+    "D:\\MyProject\\AdaniCall.Utility\\AdaniCall.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj",
+        "projectUniqueName": "D:\\MyProject\\AdaniCall.Utility\\AdaniCall.Utility.csproj",
         "projectName": "AdaniCall.Utility",
-        "projectPath": "D:\\Project\\AdaniTeams\\AdaniCall.Utility\\AdaniCall.Utility.csproj",
-        "packagesPath": "C:\\Users\\pankaj.kakara\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\AdaniTeams\\AdaniCall.Utility\\obj\\",
+        "projectPath": "D:\\MyProject\\AdaniCall.Utility\\AdaniCall.Utility.csproj",
+        "packagesPath": "C:\\Users\\prashant.kashid\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\AdaniCall.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pankaj.kakara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prashant.kashid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -171,7 +171,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {
@@ -188,7 +188,7 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     }

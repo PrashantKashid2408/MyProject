@@ -154,8 +154,13 @@ video {width: 100%;}
 	max-height: 100%;
 	vertical-align: middle;
 }
+.infraformulationsimgclick{
+	cursor:pointer;
+}
 /* End Accept Screen */
-#remoteVideoContainer video {display:flex;}
+#remoteVideoContainer video {
+	display: flex;
+}
 /*.videoContainerAccept {
 	background: url(../images/loader.gif) no-repeat center center;
 }*/

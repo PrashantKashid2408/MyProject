@@ -9,3 +9,14 @@ D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.csproj.
 D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.csproj.CopyComplete
 D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.dll
 D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.pdb
+D:\MyProject\AdaniCall.Entity\bin\Debug\net472\AdaniCall.Entity.dll
+D:\MyProject\AdaniCall.Entity\bin\Debug\net472\AdaniCall.Entity.pdb
+D:\MyProject\AdaniCall.Entity\bin\Debug\net472\Newtonsoft.Json.dll
+D:\MyProject\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.csproj.AssemblyReference.cache
+D:\MyProject\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.AssemblyInfoInputs.cache
+D:\MyProject\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.AssemblyInfo.cs
+D:\MyProject\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.csproj.CoreCompileInputs.cache
+D:\MyProject\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.csproj.CopyComplete
+D:\MyProject\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.dll
+D:\MyProject\AdaniCall.Entity\obj\Debug\net472\AdaniCall.Entity.pdb
