@@ -94,7 +94,7 @@ namespace AdaniCall.Business.BusinessFacade
                 else
                     return false;
             }
-            catch (Exception ex)
+            catch 
             {
                 return false;
             }
