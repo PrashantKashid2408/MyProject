@@ -1,0 +1,17 @@
+LogTime : 15:57:50 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.Users (Authenticate(username=kioskthree@wits.bzPassword=Yax2NW05zWB4f9X2JgRrgQ==))
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : Cannot open server 'agcx' requested by the login. Client with IP address '103.195.202.252' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+ 
+Error Message GetMethod FullName : .ctor
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 

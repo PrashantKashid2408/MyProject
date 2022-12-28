@@ -1,0 +1,17 @@
+LogTime : 16:47:23 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 

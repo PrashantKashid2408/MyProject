@@ -1,0 +1,2511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+    <assembly>
+        <name>Azure.Communication.CallingServer</name>
+    </assembly>
+    <members>
+        <member name="T:Azure.Communication.CallingServer.CallConnection">
+            <summary>
+            The Azure Communication Services Calling Server client.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallConnection.CallConnectionId">
+            <summary>
+            The call connection id.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.#ctor">
+            <summary>Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.CallingServerClient" /> for mocking.</summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.HangupAsync(System.Threading.CancellationToken)">
+            <summary> Disconnect the current caller in a group-call or end a p2p-call.</summary>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.Hangup(System.Threading.CancellationToken)">
+            <summary> Disconnect the current caller in a group-call or end a p2p-call. </summary>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.CancelAllMediaOperationsAsync(System.String,System.Threading.CancellationToken)">
+            <summary> Cancel all media operations in the call. </summary>
+            <param name="operationContext">The operation context. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.CancelAllMediaOperations(System.String,System.Threading.CancellationToken)">
+            <summary> Cancel all media operations in the call. </summary>
+            <param name="operationContext">The operation context. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.PlayAudioAsync(System.Uri,System.Nullable{System.Boolean},System.String,System.Uri,System.String,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="audioFileUri"> The uri of the audio file. </param>
+            <param name="loop">The flag to indicate if audio file need to be played in a loop or not.</param>
+            <param name="audioFileId">Tne id for the media in the AudioFileUri, using which we cache the media resource. </param>
+            <param name="callbackUri">The callback Uri to receive PlayAudio status notifications. </param>
+            <param name="operationContext">The operation context. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.PlayAudioAsync(Azure.Communication.CallingServer.PlayAudioOptions,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="options"> Play audio request. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="options" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.PlayAudio(System.Uri,System.Nullable{System.Boolean},System.String,System.Uri,System.String,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="audioFileUri"> The uri of the audio file. </param>
+            <param name="loop">The flag to indicate if audio file need to be played in a loop or not.</param>
+            <param name="audioFileId">Tne id for the media in the AudioFileUri, using which we cache the media resource. </param>
+            <param name="callbackUri">The callback Uri to receive PlayAudio status notifications. </param>
+            <param name="operationContext">The operation context. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.PlayAudio(Azure.Communication.CallingServer.PlayAudioOptions,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="options"> Play audio request. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="options" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.AddParticipantAsync(Azure.Communication.CommunicationIdentifier,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Add a participant to the call. </summary>
+            <param name="participant"> The identity of participant to be added to the call. </param>
+            <param name="alternateCallerId">The phone number to use when adding a pstn participant.</param>
+            <param name="operationContext">The operation context. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="participant" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.AddParticipant(Azure.Communication.CommunicationIdentifier,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Add a participant to the call. </summary>
+            <param name="participant"> The identity of participant to be added to the call. </param>
+            <param name="alternateCallerId">The phone number to use when adding a pstn participant.</param>
+            <param name="operationContext">The operation context. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="participant" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.RemoveParticipantAsync(System.String,System.Threading.CancellationToken)">
+            <summary> Remove a participant from the call. </summary>
+            <param name="participantId"> The participant id. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnection.RemoveParticipant(System.String,System.Threading.CancellationToken)">
+            <summary> Remove a participants from the call. </summary>
+            <param name="participantId"> The participant id. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallingServerClient">
+            <summary>
+            The Azure Communication Services Calling Server client.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.#ctor(System.String)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.CallingServerClient" />.</summary>
+            <param name="connectionString">Connection string acquired from the Azure Communication Services resource.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.#ctor(System.String,Azure.Communication.CallingServer.CallingServerClientOptions)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.CallingServerClient" />.</summary>
+            <param name="connectionString">Connection string acquired from the Azure Communication Services resource.</param>
+            <param name="options">Client option exposing <see cref="P:Azure.Core.ClientOptions.Diagnostics" />, <see cref="P:Azure.Core.ClientOptions.Retry" />, <see cref="P:Azure.Core.ClientOptions.Transport" />, etc.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.#ctor(System.Uri,Azure.Core.TokenCredential)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.CallingServerClient" />.</summary>
+            <param name="endpoint">The URI of the Azure Communication Services resource.</param>
+            <param name="credential">The TokenCredential used to authenticate requests, such as DefaultAzureCredential.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.#ctor(System.Uri,Azure.Core.TokenCredential,Azure.Communication.CallingServer.CallingServerClientOptions)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.CallingServerClient" />.</summary>
+            <param name="endpoint">The URI of the Azure Communication Services resource.</param>
+            <param name="credential">The TokenCredential used to authenticate requests, such as DefaultAzureCredential.</param>
+            <param name="options">Client option exposing <see cref="P:Azure.Core.ClientOptions.Diagnostics" />, <see cref="P:Azure.Core.ClientOptions.Retry" />, <see cref="P:Azure.Core.ClientOptions.Transport" />, etc.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.#ctor">
+            <summary>Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.CallingServerClient" /> for mocking.</summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.CreateCallConnectionAsync(Azure.Communication.CommunicationIdentifier,System.Collections.Generic.IEnumerable{Azure.Communication.CommunicationIdentifier},Azure.Communication.CallingServer.CreateCallOptions,System.Threading.CancellationToken)">
+            Create an outgoing call from source to target identities.
+            <param name="source"> The source identity </param>
+            <param name="targets"> The target identities. </param>
+            <param name="options"> The call options. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="source" /> is null.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="targets" /> is null.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="options" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.CreateCallConnection(Azure.Communication.CommunicationIdentifier,System.Collections.Generic.IEnumerable{Azure.Communication.CommunicationIdentifier},Azure.Communication.CallingServer.CreateCallOptions,System.Threading.CancellationToken)">
+            Create an outgoing call from source to target identities.
+            <param name="source"> The source identity </param>
+            <param name="targets"> The target identities. </param>
+            <param name="options"> The call options. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="source" /> is null.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="targets" /> is null.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="options" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.JoinCallAsync(System.String,Azure.Communication.CommunicationIdentifier,Azure.Communication.CallingServer.JoinCallOptions,System.Threading.CancellationToken)">
+            Join the call using server call id.
+            <param name="serverCallId"> The server call id. </param>
+            <param name="source"> The source identity. </param>
+            <param name="callOptions"> The call Options. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="source" /> is null.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="serverCallId" /> is null.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="callOptions" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.JoinCall(System.String,Azure.Communication.CommunicationIdentifier,Azure.Communication.CallingServer.JoinCallOptions,System.Threading.CancellationToken)">
+            Join the call using server call id.
+            <param name="serverCallId"> The server call id. </param>
+            <param name="source"> The source identity. </param>
+            <param name="callOptions"> The call Options. </param>
+            <param name="cancellationToken"> The cancellation token. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="source" /> is null.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="serverCallId" /> is null.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="callOptions" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.GetCallConnection(System.String)">
+            <summary> Initializes a new instance of CallConnection. <see cref="T:Azure.Communication.CallingServer.CallConnection" />.</summary>
+            <param name="callConnectionId"> The thread id for the ChatThreadClient instance. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.InitializeServerCall(System.String)">
+            <summary>
+            Initializes a server call.
+            </summary>
+            <param name="serverCallId">The server call id. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.DownloadStreamingAsync(System.Uri,Azure.HttpRange,System.Threading.CancellationToken)">
+             <summary>
+             The <see cref="M:Azure.Communication.CallingServer.CallingServerClient.DownloadStreamingAsync(System.Uri,Azure.HttpRange,System.Threading.CancellationToken)" />
+             operation downloads the recording's content.
+            
+             </summary>
+             <param name="sourceEndpoint">
+             Recording's content's url location.
+             </param>
+             <param name="range">
+             If provided, only download the bytes of the content in the specified range.
+             If not provided, download the entire content.
+             </param>
+             <param name="cancellationToken">
+             Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+             notifications that the operation should be canceled.
+             </param>
+             <returns>
+             A <see cref="T:Azure.Response`1" /> containing the
+             downloaded content.
+             </returns>
+             <remarks>
+             A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+             a failure occurs.
+             </remarks>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.DownloadStreaming(System.Uri,Azure.HttpRange,System.Threading.CancellationToken)">
+             <summary>
+             The <see cref="M:Azure.Communication.CallingServer.CallingServerClient.DownloadStreaming(System.Uri,Azure.HttpRange,System.Threading.CancellationToken)" />
+             operation downloads the recording's content.
+            
+             </summary>
+             <param name="sourceEndpoint">
+             Recording's content's url location.
+             </param>
+             <param name="range">
+             If provided, only download the bytes of the content in the specified range.
+             If not provided, download the entire content.
+             </param>
+             <param name="cancellationToken">
+             Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+             notifications that the operation should be canceled.
+             </param>
+             <returns>
+             A <see cref="T:Azure.Response`1" /> containing the
+             downloaded content.
+             </returns>
+             <remarks>
+             A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+             a failure occurs.
+             </remarks>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.DownloadTo(System.Uri,System.IO.Stream,Azure.Communication.CallingServer.ContentTransferOptions,System.Threading.CancellationToken)">
+            <summary>
+            The <see cref="M:Azure.Communication.CallingServer.CallingServerClient.DownloadTo(System.Uri,System.IO.Stream,Azure.Communication.CallingServer.ContentTransferOptions,System.Threading.CancellationToken)" />
+            operation downloads the specified content using parallel requests,
+            and writes the content to <paramref name="destinationStream" />.
+            </summary>
+            <param name="sourceEndpoint">
+            A <see cref="T:System.Uri" /> with the Recording's content's url location.
+            </param>
+            <param name="destinationStream">
+            A <see cref="T:System.IO.Stream" /> to write the downloaded content to.
+            </param>
+            <param name="transferOptions">
+            Optional <see cref="T:Azure.Communication.CallingServer.ContentTransferOptions" /> to configure
+            parallel transfer behavior.
+            </param>
+            <param name="cancellationToken">
+            Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+            notifications that the operation should be canceled.
+            </param>
+            <returns>
+            A <see cref="T:Azure.Response" /> describing the operation.
+            </returns>
+            <remarks>
+            A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+            a failure occurs.
+            </remarks>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.DownloadToAsync(System.Uri,System.IO.Stream,Azure.Communication.CallingServer.ContentTransferOptions,System.Threading.CancellationToken)">
+            <summary>
+            The <see cref="M:Azure.Communication.CallingServer.CallingServerClient.DownloadToAsync(System.Uri,System.IO.Stream,Azure.Communication.CallingServer.ContentTransferOptions,System.Threading.CancellationToken)" />
+            operation downloads the specified content using parallel requests,
+            and writes the content to <paramref name="destinationStream" />.
+            </summary>
+            <param name="sourceEndpoint">
+            A <see cref="T:System.Uri" /> with the Recording's content's url location.
+            </param>
+            <param name="destinationStream">
+            A <see cref="T:System.IO.Stream" /> to write the downloaded content to.
+            </param>
+            <param name="transferOptions">
+            Optional <see cref="T:Azure.Communication.CallingServer.ContentTransferOptions" /> to configure
+            parallel transfer behavior.
+            </param>
+            <param name="cancellationToken">
+            Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+            notifications that the operation should be canceled.
+            </param>
+            <returns>
+            A <see cref="T:Azure.Response" /> describing the operation.
+            </returns>
+            <remarks>
+            A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+            a failure occurs.
+            </remarks>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.DownloadTo(System.Uri,System.String,Azure.Communication.CallingServer.ContentTransferOptions,System.Threading.CancellationToken)">
+            <summary>
+            The <see cref="M:Azure.Communication.CallingServer.CallingServerClient.DownloadTo(System.Uri,System.String,Azure.Communication.CallingServer.ContentTransferOptions,System.Threading.CancellationToken)" />
+            operation downloads the specified content using parallel requests,
+            and writes the content to <paramref name="destinationPath" />.
+            </summary>
+            <param name="sourceEndpoint">
+            A <see cref="T:System.Uri" /> with the Recording's content's url location.
+            </param>
+            <param name="destinationPath">
+            A file path to write the downloaded content to.
+            </param>
+            <param name="transferOptions">
+            Optional <see cref="T:Azure.Communication.CallingServer.ContentTransferOptions" /> to configure
+            parallel transfer behavior.
+            </param>
+            <param name="cancellationToken">
+            Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+            notifications that the operation should be canceled.
+            </param>
+            <returns>
+            A <see cref="T:Azure.Response" /> describing the operation.
+            </returns>
+            <remarks>
+            A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+            a failure occurs.
+            </remarks>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClient.DownloadToAsync(System.Uri,System.String,Azure.Communication.CallingServer.ContentTransferOptions,System.Threading.CancellationToken)">
+            <summary>
+            The <see cref="M:Azure.Communication.CallingServer.CallingServerClient.DownloadToAsync(System.Uri,System.String,Azure.Communication.CallingServer.ContentTransferOptions,System.Threading.CancellationToken)" />
+            operation downloads the specified content using parallel requests,
+            and writes the content to <paramref name="destinationPath" />.
+            </summary>
+            <param name="sourceEndpoint">
+            A <see cref="T:System.Uri" /> with the Recording's content's url location.
+            </param>
+            <param name="destinationPath">
+            A file path to write the downloaded content to.
+            </param>
+            <param name="transferOptions">
+            Optional <see cref="T:Azure.Communication.CallingServer.ContentTransferOptions" /> to configure
+            parallel transfer behavior.
+            </param>
+            <param name="cancellationToken">
+            Optional <see cref="T:System.Threading.CancellationToken" /> to propagate
+            notifications that the operation should be canceled.
+            </param>
+            <returns>
+            A <see cref="T:Azure.Response" /> describing the operation.
+            </returns>
+            <remarks>
+            A <see cref="T:Azure.RequestFailedException" /> will be thrown if
+            a failure occurs.
+            </remarks>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallingServerClientOptions">
+            <summary>
+            The options for communication <see cref="T:Azure.Communication.CallingServer.CallConnection" /> and <see cref="T:Azure.Communication.CallingServer.ServerCall" />.
+            </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.CallingServerClientOptions.LatestVersion">
+            <summary>
+            The latest version of the CallingServer service.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerClientOptions.#ctor(Azure.Communication.CallingServer.CallingServerClientOptions.ServiceVersion)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Azure.Communication.CallingServer.CallingServerClientOptions" />.
+            </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallingServerClientOptions.ServiceVersion">
+            <summary>
+            The CallingServer service version.
+            </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.CallingServerClientOptions.ServiceVersion.V2021_06_15_Preview">
+            <summary>
+            The Beta of the CallingServer service.
+            </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.CallingServerClientOptions.ServiceVersion.V2021_08_30_Preview">
+            <summary>
+            The Beta of the CallingServer service.
+            </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.Constants.ContentDownloader">
+            <summary>
+            ContentDownloader values.
+            </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.Constants.HeaderNames">
+            <summary>
+            Header Name constant values.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.#ctor(Azure.Core.Pipeline.ClientDiagnostics,Azure.Core.Pipeline.HttpPipeline,System.String,System.String)">
+            <summary> Initializes a new instance of CallConnectionsRestClient. </summary>
+            <param name="clientDiagnostics"> The handler for diagnostic messaging in the client. </param>
+            <param name="pipeline"> The HTTP pipeline for sending and receiving REST requests and responses. </param>
+            <param name="endpoint"> The endpoint of the Azure Communication resource. </param>
+            <param name="apiVersion"> Api Version. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="endpoint" /> or <paramref name="apiVersion" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.CreateCallAsync(System.Collections.Generic.IEnumerable{Azure.Communication.CommunicationIdentifierModel},Azure.Communication.CommunicationIdentifierModel,System.String,Azure.Communication.PhoneNumberIdentifierModel,System.String,System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.MediaType},System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.EventSubscriptionType},System.Threading.CancellationToken)">
+            <summary> Create a new call. </summary>
+            <param name="targets"> The targets of the call. </param>
+            <param name="source"> The source of the call. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="alternateCallerId"> The alternate identity of the source of the call if dialing out to a pstn number. </param>
+            <param name="subject"> The subject. </param>
+            <param name="requestedMediaTypes"> The requested modalities. </param>
+            <param name="requestedCallEvents"> The requested call events to subscribe to. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="targets" />, <paramref name="source" />, or <paramref name="callbackUri" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.CreateCall(System.Collections.Generic.IEnumerable{Azure.Communication.CommunicationIdentifierModel},Azure.Communication.CommunicationIdentifierModel,System.String,Azure.Communication.PhoneNumberIdentifierModel,System.String,System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.MediaType},System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.EventSubscriptionType},System.Threading.CancellationToken)">
+            <summary> Create a new call. </summary>
+            <param name="targets"> The targets of the call. </param>
+            <param name="source"> The source of the call. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="alternateCallerId"> The alternate identity of the source of the call if dialing out to a pstn number. </param>
+            <param name="subject"> The subject. </param>
+            <param name="requestedMediaTypes"> The requested modalities. </param>
+            <param name="requestedCallEvents"> The requested call events to subscribe to. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="targets" />, <paramref name="source" />, or <paramref name="callbackUri" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.HangupCallAsync(System.String,System.Threading.CancellationToken)">
+            <summary> Hangup the call. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.HangupCall(System.String,System.Threading.CancellationToken)">
+            <summary> Hangup the call. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.PlayAudioAsync(System.String,System.String,System.Nullable{System.Boolean},System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="audioFileUri">
+            The media resource uri of the play audio request. 
+            Currently only Wave file (.wav) format audio prompts are supported.
+            More specifically, the audio content in the wave file must be mono (single-channel),
+            16-bit samples with a 16,000 (16KHz) sampling rate.
+            </param>
+            <param name="loop"> The flag indicating whether audio file needs to be played in loop or not. </param>
+            <param name="operationContext"> The value to identify context of the operation. </param>
+            <param name="audioFileId"> An id for the media in the AudioFileUri, using which we cache the media resource. </param>
+            <param name="callbackUri"> The callback Uri to receive PlayAudio status notifications. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.PlayAudio(System.String,System.String,System.Nullable{System.Boolean},System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="audioFileUri">
+            The media resource uri of the play audio request. 
+            Currently only Wave file (.wav) format audio prompts are supported.
+            More specifically, the audio content in the wave file must be mono (single-channel),
+            16-bit samples with a 16,000 (16KHz) sampling rate.
+            </param>
+            <param name="loop"> The flag indicating whether audio file needs to be played in loop or not. </param>
+            <param name="operationContext"> The value to identify context of the operation. </param>
+            <param name="audioFileId"> An id for the media in the AudioFileUri, using which we cache the media resource. </param>
+            <param name="callbackUri"> The callback Uri to receive PlayAudio status notifications. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.CancelAllMediaOperationsAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Cancel all media operations. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="operationContext"> The context for this operation. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.CancelAllMediaOperations(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Cancel all media operations. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="operationContext"> The context for this operation. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.AddParticipantAsync(System.String,Azure.Communication.PhoneNumberIdentifierModel,Azure.Communication.CommunicationIdentifierModel,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Add a participant to the call. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="alternateCallerId"> The alternate identity of source participant. </param>
+            <param name="participant"> The participant to be added to the call. </param>
+            <param name="operationContext"> The operation context. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.AddParticipant(System.String,Azure.Communication.PhoneNumberIdentifierModel,Azure.Communication.CommunicationIdentifierModel,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Add a participant to the call. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="alternateCallerId"> The alternate identity of source participant. </param>
+            <param name="participant"> The participant to be added to the call. </param>
+            <param name="operationContext"> The operation context. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.RemoveParticipantAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Remove a participant from the call. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="participantId"> The participant id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> or <paramref name="participantId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionsRestClient.RemoveParticipant(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Remove a participant from the call. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="participantId"> The participant id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callConnectionId" /> or <paramref name="participantId" /> is null. </exception>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallingServerModelFactory">
+            <summary> Model factory for read-only models. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.PlayAudioResult(System.String,Azure.Communication.CallingServer.OperationStatus,System.String,Azure.Communication.CallingServer.ResultInfo)">
+            <summary> Initializes a new instance of PlayAudioResult. </summary>
+            <param name="operationId"> The operation id. </param>
+            <param name="status"> The status of the operation. </param>
+            <param name="operationContext"> The operation context provided by client. </param>
+            <param name="resultInfo"> The result info for the operation. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.PlayAudioResult" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.ResultInfo(System.Int32,System.Int32,System.String)">
+            <summary> Initializes a new instance of ResultInfo. </summary>
+            <param name="code"> The result code associated with the operation. </param>
+            <param name="subcode"> The subcode that further classifies the result. </param>
+            <param name="message"> The message is a detail explanation of subcode. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.ResultInfo" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.CancelAllMediaOperationsResult(System.String,Azure.Communication.CallingServer.OperationStatus,System.String,Azure.Communication.CallingServer.ResultInfo)">
+            <summary> Initializes a new instance of CancelAllMediaOperationsResult. </summary>
+            <param name="operationId"> The operation id. </param>
+            <param name="status"> The status of the operation. </param>
+            <param name="operationContext"> The operation context provided by client. </param>
+            <param name="resultInfo"> The result info for the operation. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.CancelAllMediaOperationsResult" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.AddParticipantResult(System.String)">
+            <summary> Initializes a new instance of AddParticipantResult. </summary>
+            <param name="participantId"> The id of the added participant. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.AddParticipantResult" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.StartRecordingResult(System.String)">
+            <summary> Initializes a new instance of StartRecordingResult. </summary>
+            <param name="recordingId"> The recording id of the started recording. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.StartRecordingResult" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.CallRecordingProperties(Azure.Communication.CallingServer.CallRecordingState)">
+            <summary> Initializes a new instance of CallRecordingProperties. </summary>
+            <param name="recordingState"> The state of the recording. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.CallRecordingProperties" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.CallConnectionStateChangedEvent(System.String,System.String,Azure.Communication.CallingServer.CallConnectionState)">
+            <summary> Initializes a new instance of CallConnectionStateChangedEvent. </summary>
+            <param name="serverCallId"> The server call.id. </param>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="callConnectionState"> The call connection state. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.CallConnectionStateChangedEvent" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.CallRecordingStateChangeEvent(System.String,Azure.Communication.CallingServer.CallRecordingState,System.DateTimeOffset,System.String)">
+            <summary> Initializes a new instance of CallRecordingStateChangeEvent. </summary>
+            <param name="recordingId"> The call recording id. </param>
+            <param name="state"> The state of the recording. </param>
+            <param name="startDateTime"> The time of the recording started. </param>
+            <param name="serverCallId"> The server call.id. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.CallRecordingStateChangeEvent" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.AddParticipantResultEvent(Azure.Communication.CallingServer.ResultInfo,System.String,Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Initializes a new instance of AddParticipantResultEvent. </summary>
+            <param name="resultInfo"> The result details. </param>
+            <param name="operationContext"> The operation context. </param>
+            <param name="status"> The status of the operation. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.AddParticipantResultEvent" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.PlayAudioResultEvent(Azure.Communication.CallingServer.ResultInfo,System.String,Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Initializes a new instance of PlayAudioResultEvent. </summary>
+            <param name="resultInfo"> The result details. </param>
+            <param name="operationContext"> The operation context. </param>
+            <param name="status"> The status of the operation. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.PlayAudioResultEvent" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.ToneReceivedEvent(Azure.Communication.CallingServer.ToneInfo,System.String)">
+            <summary> Initializes a new instance of ToneReceivedEvent. </summary>
+            <param name="toneInfo"> The tone info. </param>
+            <param name="callConnectionId"> The call connection id. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.ToneReceivedEvent" /> instance for mocking. </returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerModelFactory.ToneInfo(System.Int32,Azure.Communication.CallingServer.ToneValue)">
+            <summary> Initializes a new instance of ToneInfo. </summary>
+            <param name="sequenceId"> The sequence id which can be used to determine if the same tone was played multiple times or if any tones were missed. </param>
+            <param name="tone"> The tone value. </param>
+            <returns> A new <see cref="T:Azure.Communication.CallingServer.ToneInfo" /> instance for mocking. </returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.AddParticipantRequest">
+            <summary> The add participant request. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.AddParticipantRequest.#ctor">
+            <summary> Initializes a new instance of AddParticipantRequest. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.AddParticipantRequest.AlternateCallerId">
+            <summary> The alternate identity of source participant. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.AddParticipantRequest.Participant">
+            <summary> The participant to be added to the call. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.AddParticipantRequest.OperationContext">
+            <summary> The operation context. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.AddParticipantRequest.CallbackUri">
+            <summary> The callback URI. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.AddParticipantResult">
+            <summary> The add participant result. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.AddParticipantResult.#ctor">
+            <summary> Initializes a new instance of AddParticipantResult. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.AddParticipantResult.#ctor(System.String)">
+            <summary> Initializes a new instance of AddParticipantResult. </summary>
+            <param name="participantId"> The id of the added participant. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.AddParticipantResult.ParticipantId">
+            <summary> The id of the added participant. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.AddParticipantResultEvent">
+            <summary> The AddParticipantResultEvent. </summary>
+            <summary>
+            The added participants result event.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.AddParticipantResultEvent.#ctor(Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Initializes a new instance of AddParticipantResultEvent. </summary>
+            <param name="status"> The status of the operation. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.AddParticipantResultEvent.#ctor(Azure.Communication.CallingServer.ResultInfo,System.String,Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Initializes a new instance of AddParticipantResultEvent. </summary>
+            <param name="resultInfo"> The result details. </param>
+            <param name="operationContext"> The operation context. </param>
+            <param name="status"> The status of the operation. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.AddParticipantResultEvent.ResultInfo">
+            <summary> The result details. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.AddParticipantResultEvent.OperationContext">
+            <summary> The operation context. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.AddParticipantResultEvent.Status">
+            <summary> The status of the operation. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.AddParticipantResultEvent.Deserialize(System.String)">
+            <summary>
+            Deserialize <see cref="T:Azure.Communication.CallingServer.AddParticipantResultEvent" /> event.
+            </summary>
+            <param name="content">The json content.</param>
+            <returns>The new <see cref="T:Azure.Communication.CallingServer.AddParticipantResultEvent" /> object.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallConnectionState">
+            <summary> The call connection state. </summary>
+            <summary>
+            The states of a call.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionState.#ctor(System.String)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.CallConnectionState" />. </summary>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="value" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallConnectionState.Incoming">
+            <summary> incoming. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallConnectionState.Connecting">
+            <summary> connecting. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallConnectionState.Connected">
+            <summary> connected. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallConnectionState.Disconnecting">
+            <summary> disconnecting. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallConnectionState.Disconnected">
+            <summary> disconnected. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionState.op_Equality(Azure.Communication.CallingServer.CallConnectionState,Azure.Communication.CallingServer.CallConnectionState)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.CallConnectionState" /> values are the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionState.op_Inequality(Azure.Communication.CallingServer.CallConnectionState,Azure.Communication.CallingServer.CallConnectionState)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.CallConnectionState" /> values are not the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionState.op_Implicit(System.String)~Azure.Communication.CallingServer.CallConnectionState">
+            <summary> Converts a string to a <see cref="T:Azure.Communication.CallingServer.CallConnectionState" />. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionState.Equals(System.Object)">
+            <summary>Indicates whether this instance and a specified object are equal.</summary><param name="obj">The object to compare with the current instance.</param><returns><see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionState.Equals(Azure.Communication.CallingServer.CallConnectionState)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionState.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary><returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionState.ToString">
+            <summary>Returns the fully qualified type name of this instance.</summary><returns>The fully qualified type name.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallConnectionStateChangedEvent">
+            <summary> The call connection state changed event. </summary>
+            <summary>
+            The call connection state change event.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionStateChangedEvent.#ctor(Azure.Communication.CallingServer.CallConnectionState)">
+            <summary> Initializes a new instance of CallConnectionStateChangedEvent. </summary>
+            <param name="callConnectionState"> The call connection state. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionStateChangedEvent.#ctor(System.String,System.String,Azure.Communication.CallingServer.CallConnectionState)">
+            <summary> Initializes a new instance of CallConnectionStateChangedEvent. </summary>
+            <param name="serverCallId"> The server call.id. </param>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="callConnectionState"> The call connection state. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallConnectionStateChangedEvent.ServerCallId">
+            <summary> The server call.id. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallConnectionStateChangedEvent.CallConnectionId">
+            <summary> The call connection id. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallConnectionStateChangedEvent.CallConnectionState">
+            <summary> The call connection state. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallConnectionStateChangedEvent.Deserialize(System.String)">
+            <summary>
+            Deserialize <see cref="T:Azure.Communication.CallingServer.CallConnectionStateChangedEvent" /> event.
+            </summary>
+            <param name="content">The json content.</param>
+            <returns>The new <see cref="T:Azure.Communication.CallingServer.CallConnectionStateChangedEvent" /> object.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallParticipantInternal">
+            <summary> A participant in a call. </summary>
+            <summary>
+            The participant in a call.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallParticipantInternal.#ctor(System.Boolean)">
+            <summary> Initializes a new instance of CallParticipantInternal. </summary>
+            <param name="isMuted"> Is participant muted. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallParticipantInternal.#ctor(Azure.Communication.CommunicationIdentifierModel,System.String,System.Boolean)">
+            <summary> Initializes a new instance of CallParticipantInternal. </summary>
+            <param name="identifier"> Communication identifier of the participant. </param>
+            <param name="participantId"> Participant id. </param>
+            <param name="isMuted"> Is participant muted. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallParticipantInternal.Identifier">
+            <summary> Communication identifier of the participant. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallParticipantInternal.ParticipantId">
+            <summary> Participant id. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallParticipantInternal.IsMuted">
+            <summary> Is participant muted. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallRecordingProperties">
+            <summary> The response payload of get call recording properties operation. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingProperties.#ctor(Azure.Communication.CallingServer.CallRecordingState)">
+            <summary> Initializes a new instance of CallRecordingProperties. </summary>
+            <param name="recordingState"> The state of the recording. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallRecordingProperties.RecordingState">
+            <summary> The state of the recording. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallRecordingState">
+            <summary> The state of the recording. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingState.#ctor(System.String)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.CallRecordingState" />. </summary>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="value" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallRecordingState.Active">
+            <summary> active. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallRecordingState.Inactive">
+            <summary> inactive. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingState.op_Equality(Azure.Communication.CallingServer.CallRecordingState,Azure.Communication.CallingServer.CallRecordingState)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.CallRecordingState" /> values are the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingState.op_Inequality(Azure.Communication.CallingServer.CallRecordingState,Azure.Communication.CallingServer.CallRecordingState)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.CallRecordingState" /> values are not the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingState.op_Implicit(System.String)~Azure.Communication.CallingServer.CallRecordingState">
+            <summary> Converts a string to a <see cref="T:Azure.Communication.CallingServer.CallRecordingState" />. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingState.Equals(System.Object)">
+            <summary>Indicates whether this instance and a specified object are equal.</summary><param name="obj">The object to compare with the current instance.</param><returns><see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingState.Equals(Azure.Communication.CallingServer.CallRecordingState)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingState.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary><returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingState.ToString">
+            <summary>Returns the fully qualified type name of this instance.</summary><returns>The fully qualified type name.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallRecordingStateChangeEvent">
+            <summary> The call recording state change event. </summary>
+            <summary>
+            The call recording state change event.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingStateChangeEvent.#ctor(Azure.Communication.CallingServer.CallRecordingState,System.DateTimeOffset)">
+            <summary> Initializes a new instance of CallRecordingStateChangeEvent. </summary>
+            <param name="state"> The state of the recording. </param>
+            <param name="startDateTime"> The time of the recording started. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingStateChangeEvent.#ctor(System.String,Azure.Communication.CallingServer.CallRecordingState,System.DateTimeOffset,System.String)">
+            <summary> Initializes a new instance of CallRecordingStateChangeEvent. </summary>
+            <param name="recordingId"> The call recording id. </param>
+            <param name="state"> The state of the recording. </param>
+            <param name="startDateTime"> The time of the recording started. </param>
+            <param name="serverCallId"> The server call.id. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallRecordingStateChangeEvent.RecordingId">
+            <summary> The call recording id. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallRecordingStateChangeEvent.State">
+            <summary> The state of the recording. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallRecordingStateChangeEvent.StartDateTime">
+            <summary> The time of the recording started. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallRecordingStateChangeEvent.ServerCallId">
+            <summary> The server call.id. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallRecordingStateChangeEvent.Deserialize(System.String)">
+            <summary>
+            Deserialize <see cref="T:Azure.Communication.CallingServer.CallRecordingStateChangeEvent" /> event.
+            </summary>
+            <param name="content">The json content.</param>
+            <returns>The new <see cref="T:Azure.Communication.CallingServer.CallRecordingStateChangeEvent" /> object.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CancelAllMediaOperationsRequest">
+            <summary> The request payload for cancel all media operations. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CancelAllMediaOperationsRequest.#ctor">
+            <summary> Initializes a new instance of CancelAllMediaOperationsRequest. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CancelAllMediaOperationsRequest.OperationContext">
+            <summary> The context for this operation. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CancelAllMediaOperationsResult">
+            <summary> The response payload of the cancel all media operations. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CancelAllMediaOperationsResult.#ctor(Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Initializes a new instance of CancelAllMediaOperationsResult. </summary>
+            <param name="status"> The status of the operation. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CancelAllMediaOperationsResult.#ctor(System.String,Azure.Communication.CallingServer.OperationStatus,System.String,Azure.Communication.CallingServer.ResultInfo)">
+            <summary> Initializes a new instance of CancelAllMediaOperationsResult. </summary>
+            <param name="operationId"> The operation id. </param>
+            <param name="status"> The status of the operation. </param>
+            <param name="operationContext"> The operation context provided by client. </param>
+            <param name="resultInfo"> The result info for the operation. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CancelAllMediaOperationsResult.OperationId">
+            <summary> The operation id. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CancelAllMediaOperationsResult.Status">
+            <summary> The status of the operation. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CancelAllMediaOperationsResult.OperationContext">
+            <summary> The operation context provided by client. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CancelAllMediaOperationsResult.ResultInfo">
+            <summary> The result info for the operation. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CommunicationError">
+            <summary> The Communication Services error. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CommunicationError.#ctor(System.String,System.String)">
+            <summary> Initializes a new instance of CommunicationError. </summary>
+            <param name="code"> The error code. </param>
+            <param name="message"> The error message. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="code" /> or <paramref name="message" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CommunicationError.#ctor(System.String,System.String,System.String,System.Collections.Generic.IReadOnlyList{Azure.Communication.CallingServer.CommunicationError},Azure.Communication.CallingServer.CommunicationError)">
+            <summary> Initializes a new instance of CommunicationError. </summary>
+            <param name="code"> The error code. </param>
+            <param name="message"> The error message. </param>
+            <param name="target"> The error target. </param>
+            <param name="details"> Further details about specific errors that led to this error. </param>
+            <param name="innerError"> The inner error if any. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CommunicationError.Code">
+            <summary> The error code. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CommunicationError.Message">
+            <summary> The error message. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CommunicationError.Target">
+            <summary> The error target. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CommunicationError.Details">
+            <summary> Further details about specific errors that led to this error. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CommunicationError.InnerError">
+            <summary> The inner error if any. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CommunicationErrorResponse">
+            <summary> The Communication Services error. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CommunicationErrorResponse.#ctor(Azure.Communication.CallingServer.CommunicationError)">
+            <summary> Initializes a new instance of CommunicationErrorResponse. </summary>
+            <param name="error"> The Communication Services error. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="error" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CommunicationErrorResponse.Error">
+            <summary> The Communication Services error. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CreateCallRequestInternal">
+            <summary> The request payload for create call. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CreateCallRequestInternal.#ctor(System.Collections.Generic.IEnumerable{Azure.Communication.CommunicationIdentifierModel},Azure.Communication.CommunicationIdentifierModel,System.String)">
+            <summary> Initializes a new instance of CreateCallRequestInternal. </summary>
+            <param name="targets"> The targets of the call. </param>
+            <param name="source"> The source of the call. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="targets" />, <paramref name="source" />, or <paramref name="callbackUri" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallRequestInternal.AlternateCallerId">
+            <summary> The alternate identity of the source of the call if dialing out to a pstn number. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallRequestInternal.Targets">
+            <summary> The targets of the call. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallRequestInternal.Source">
+            <summary> The source of the call. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallRequestInternal.Subject">
+            <summary> The subject. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallRequestInternal.CallbackUri">
+            <summary> The callback URI. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallRequestInternal.RequestedMediaTypes">
+            <summary> The requested modalities. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallRequestInternal.RequestedCallEvents">
+            <summary> The requested call events to subscribe to. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CreateCallResultInternal">
+            <summary> The response payload of the create call operation. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CreateCallResultInternal.#ctor">
+            <summary> Initializes a new instance of CreateCallResultInternal. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CreateCallResultInternal.#ctor(System.String)">
+            <summary> Initializes a new instance of CreateCallResultInternal. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallResultInternal.CallConnectionId">
+            <summary> The call connection id. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.EventSubscriptionType">
+            <summary> The EventSubscriptionType. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.EventSubscriptionType.#ctor(System.String)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.EventSubscriptionType" />. </summary>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="value" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.EventSubscriptionType.ParticipantsUpdated">
+            <summary> participantsUpdated. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.EventSubscriptionType.DtmfReceived">
+            <summary> dtmfReceived. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.EventSubscriptionType.op_Equality(Azure.Communication.CallingServer.EventSubscriptionType,Azure.Communication.CallingServer.EventSubscriptionType)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.EventSubscriptionType" /> values are the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.EventSubscriptionType.op_Inequality(Azure.Communication.CallingServer.EventSubscriptionType,Azure.Communication.CallingServer.EventSubscriptionType)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.EventSubscriptionType" /> values are not the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.EventSubscriptionType.op_Implicit(System.String)~Azure.Communication.CallingServer.EventSubscriptionType">
+            <summary> Converts a string to a <see cref="T:Azure.Communication.CallingServer.EventSubscriptionType" />. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.EventSubscriptionType.Equals(System.Object)">
+            <summary>Indicates whether this instance and a specified object are equal.</summary><param name="obj">The object to compare with the current instance.</param><returns><see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.EventSubscriptionType.Equals(Azure.Communication.CallingServer.EventSubscriptionType)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.EventSubscriptionType.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary><returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.EventSubscriptionType.ToString">
+            <summary>Returns the fully qualified type name of this instance.</summary><returns>The fully qualified type name.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.JoinCallRequestInternal">
+            <summary> The request payload for join call. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.JoinCallRequestInternal.#ctor(Azure.Communication.CommunicationIdentifierModel,System.String)">
+            <summary> Initializes a new instance of JoinCallRequestInternal. </summary>
+            <param name="source"> The source of the call. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="source" /> or <paramref name="callbackUri" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallRequestInternal.Source">
+            <summary> The source of the call. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallRequestInternal.Subject">
+            <summary> The subject. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallRequestInternal.CallbackUri">
+            <summary> The callback URI. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallRequestInternal.RequestedMediaTypes">
+            <summary> The requested modalities. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallRequestInternal.RequestedCallEvents">
+            <summary> The requested call events to subscribe to. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.JoinCallResultInternal">
+            <summary> The response payload of the join call operation. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.JoinCallResultInternal.#ctor">
+            <summary> Initializes a new instance of JoinCallResultInternal. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.JoinCallResultInternal.#ctor(System.String)">
+            <summary> Initializes a new instance of JoinCallResultInternal. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallResultInternal.CallConnectionId">
+            <summary> The call connection id. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.MediaType">
+            <summary> The MediaType. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.MediaType.#ctor(System.String)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.MediaType" />. </summary>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="value" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.MediaType.Audio">
+            <summary> audio. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.MediaType.Video">
+            <summary> video. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.MediaType.op_Equality(Azure.Communication.CallingServer.MediaType,Azure.Communication.CallingServer.MediaType)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.MediaType" /> values are the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.MediaType.op_Inequality(Azure.Communication.CallingServer.MediaType,Azure.Communication.CallingServer.MediaType)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.MediaType" /> values are not the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.MediaType.op_Implicit(System.String)~Azure.Communication.CallingServer.MediaType">
+            <summary> Converts a string to a <see cref="T:Azure.Communication.CallingServer.MediaType" />. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.MediaType.Equals(System.Object)">
+            <summary>Indicates whether this instance and a specified object are equal.</summary><param name="obj">The object to compare with the current instance.</param><returns><see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.MediaType.Equals(Azure.Communication.CallingServer.MediaType)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.MediaType.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary><returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.MediaType.ToString">
+            <summary>Returns the fully qualified type name of this instance.</summary><returns>The fully qualified type name.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.OperationStatus">
+            <summary> The status of the operation. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.OperationStatus.#ctor(System.String)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.OperationStatus" />. </summary>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="value" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.OperationStatus.NotStarted">
+            <summary> notStarted. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.OperationStatus.Running">
+            <summary> running. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.OperationStatus.Completed">
+            <summary> completed. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.OperationStatus.Failed">
+            <summary> failed. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.OperationStatus.op_Equality(Azure.Communication.CallingServer.OperationStatus,Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.OperationStatus" /> values are the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.OperationStatus.op_Inequality(Azure.Communication.CallingServer.OperationStatus,Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.OperationStatus" /> values are not the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.OperationStatus.op_Implicit(System.String)~Azure.Communication.CallingServer.OperationStatus">
+            <summary> Converts a string to a <see cref="T:Azure.Communication.CallingServer.OperationStatus" />. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.OperationStatus.Equals(System.Object)">
+            <summary>Indicates whether this instance and a specified object are equal.</summary><param name="obj">The object to compare with the current instance.</param><returns><see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.OperationStatus.Equals(Azure.Communication.CallingServer.OperationStatus)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.OperationStatus.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary><returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.OperationStatus.ToString">
+            <summary>Returns the fully qualified type name of this instance.</summary><returns>The fully qualified type name.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.ParticipantsUpdatedEventInternal">
+            <summary> The participant update event. </summary>
+            <summary>
+            The participants updated event.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ParticipantsUpdatedEventInternal.#ctor">
+            <summary> Initializes a new instance of ParticipantsUpdatedEventInternal. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ParticipantsUpdatedEventInternal.#ctor(System.String,System.Collections.Generic.IReadOnlyList{Azure.Communication.CallingServer.CallParticipantInternal})">
+            <summary> Initializes a new instance of ParticipantsUpdatedEventInternal. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="participants"> The list of participants. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ParticipantsUpdatedEventInternal.CallConnectionId">
+            <summary> The call connection id. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ParticipantsUpdatedEventInternal.Participants">
+            <summary> The list of participants. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.PlayAudioRequest">
+            <summary> The request payload for playing audio. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.PlayAudioRequest.#ctor">
+            <summary> Initializes a new instance of PlayAudioRequest. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioRequest.AudioFileUri">
+            <summary>
+            The media resource uri of the play audio request. 
+            Currently only Wave file (.wav) format audio prompts are supported.
+            More specifically, the audio content in the wave file must be mono (single-channel),
+            16-bit samples with a 16,000 (16KHz) sampling rate.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioRequest.Loop">
+            <summary> The flag indicating whether audio file needs to be played in loop or not. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioRequest.OperationContext">
+            <summary> The value to identify context of the operation. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioRequest.AudioFileId">
+            <summary> An id for the media in the AudioFileUri, using which we cache the media resource. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioRequest.CallbackUri">
+            <summary> The callback Uri to receive PlayAudio status notifications. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.PlayAudioResult">
+            <summary> The response payload for play audio operation. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.PlayAudioResult.#ctor(Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Initializes a new instance of PlayAudioResult. </summary>
+            <param name="status"> The status of the operation. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.PlayAudioResult.#ctor(System.String,Azure.Communication.CallingServer.OperationStatus,System.String,Azure.Communication.CallingServer.ResultInfo)">
+            <summary> Initializes a new instance of PlayAudioResult. </summary>
+            <param name="operationId"> The operation id. </param>
+            <param name="status"> The status of the operation. </param>
+            <param name="operationContext"> The operation context provided by client. </param>
+            <param name="resultInfo"> The result info for the operation. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioResult.OperationId">
+            <summary> The operation id. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioResult.Status">
+            <summary> The status of the operation. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioResult.OperationContext">
+            <summary> The operation context provided by client. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioResult.ResultInfo">
+            <summary> The result info for the operation. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.PlayAudioResultEvent">
+            <summary> The play audio result event. </summary>
+            <summary>
+            The play audio result event.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.PlayAudioResultEvent.#ctor(Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Initializes a new instance of PlayAudioResultEvent. </summary>
+            <param name="status"> The status of the operation. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.PlayAudioResultEvent.#ctor(Azure.Communication.CallingServer.ResultInfo,System.String,Azure.Communication.CallingServer.OperationStatus)">
+            <summary> Initializes a new instance of PlayAudioResultEvent. </summary>
+            <param name="resultInfo"> The result details. </param>
+            <param name="operationContext"> The operation context. </param>
+            <param name="status"> The status of the operation. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioResultEvent.ResultInfo">
+            <summary> The result details. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioResultEvent.OperationContext">
+            <summary> The operation context. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioResultEvent.Status">
+            <summary> The status of the operation. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.PlayAudioResultEvent.Deserialize(System.String)">
+            <summary>
+            Deserialize <see cref="T:Azure.Communication.CallingServer.PlayAudioResultEvent" /> event.
+            </summary>
+            <param name="content">The json content.</param>
+            <returns>The new <see cref="T:Azure.Communication.CallingServer.PlayAudioResultEvent" /> object.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.RecordingChannel">
+            <summary> The channel type of a call recording. </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.RecordingChannel.Mixed">
+            <summary> mixed. </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.RecordingChannel.Unmixed">
+            <summary> unmixed. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.RecordingContent">
+            <summary> The content type of a call recording. </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.RecordingContent.Audio">
+            <summary> audio. </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.RecordingContent.AudioVideo">
+            <summary> audioVideo. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.RecordingFormat">
+            <summary> The media container format type of a call recording. </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.RecordingFormat.Wav">
+            <summary> wav. </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.RecordingFormat.Mp3">
+            <summary> mp3. </summary>
+        </member>
+        <member name="F:Azure.Communication.CallingServer.RecordingFormat.Mp4">
+            <summary> mp4. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.ResultInfo">
+            <summary> Result info class to be used to report result status for actions/operations. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ResultInfo.#ctor(System.Int32,System.Int32)">
+            <summary> Initializes a new instance of ResultInfo. </summary>
+            <param name="code"> The result code associated with the operation. </param>
+            <param name="subcode"> The subcode that further classifies the result. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ResultInfo.#ctor(System.Int32,System.Int32,System.String)">
+            <summary> Initializes a new instance of ResultInfo. </summary>
+            <param name="code"> The result code associated with the operation. </param>
+            <param name="subcode"> The subcode that further classifies the result. </param>
+            <param name="message"> The message is a detail explanation of subcode. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ResultInfo.Code">
+            <summary> The result code associated with the operation. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ResultInfo.Subcode">
+            <summary> The subcode that further classifies the result. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ResultInfo.Message">
+            <summary> The message is a detail explanation of subcode. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.StartCallRecordingRequest">
+            <summary> The request payload start call recording operation. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.StartCallRecordingRequest.#ctor">
+            <summary> Initializes a new instance of StartCallRecordingRequest. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.StartCallRecordingRequest.RecordingStateCallbackUri">
+            <summary> The uri to send notifications to. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.StartCallRecordingRequest.RecordingContentType">
+            <summary> Optional, audioVideo by default. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.StartCallRecordingRequest.RecordingChannelType">
+            <summary> Optional, mixed by default. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.StartCallRecordingRequest.RecordingFormatType">
+            <summary> Optional, mp4 by default. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.StartRecordingResult">
+            <summary> The response payload of start call recording operation. </summary>
+            <summary>
+            Recording Channel
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.StartRecordingResult.#ctor">
+            <summary> Initializes a new instance of StartRecordingResult. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.StartRecordingResult.#ctor(System.String)">
+            <summary> Initializes a new instance of StartRecordingResult. </summary>
+            <param name="recordingId"> The recording id of the started recording. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.StartRecordingResult.RecordingId">
+            <summary> The recording id of the started recording. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.ToneInfo">
+            <summary> The information about the tone. </summary>
+            <summary>
+            The tone info
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneInfo.#ctor(System.Int32,Azure.Communication.CallingServer.ToneValue)">
+            <summary> Initializes a new instance of ToneInfo. </summary>
+            <param name="sequenceId"> The sequence id which can be used to determine if the same tone was played multiple times or if any tones were missed. </param>
+            <param name="tone"> The tone value. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneInfo.SequenceId">
+            <summary> The sequence id which can be used to determine if the same tone was played multiple times or if any tones were missed. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneInfo.Tone">
+            <summary> The tone value. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.ToneReceivedEvent">
+            <summary> The subscribe to tone event. </summary>
+            <summary>
+            The subscribe to tone event
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneReceivedEvent.#ctor(Azure.Communication.CallingServer.ToneInfo)">
+            <summary> Initializes a new instance of ToneReceivedEvent. </summary>
+            <param name="toneInfo"> The tone info. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="toneInfo" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneReceivedEvent.#ctor(Azure.Communication.CallingServer.ToneInfo,System.String)">
+            <summary> Initializes a new instance of ToneReceivedEvent. </summary>
+            <param name="toneInfo"> The tone info. </param>
+            <param name="callConnectionId"> The call connection id. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneReceivedEvent.ToneInfo">
+            <summary> The tone info. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneReceivedEvent.CallConnectionId">
+            <summary> The call connection id. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneReceivedEvent.Deserialize(System.String)">
+            <summary>
+            Deserialize <see cref="T:Azure.Communication.CallingServer.ToneReceivedEvent" /> event.
+            </summary>
+            <param name="content">The json content.</param>
+            <returns>The new <see cref="T:Azure.Communication.CallingServer.ToneReceivedEvent" /> object.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.ToneValue">
+            <summary> The tone value. </summary>
+            <summary>
+            The tone.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneValue.#ctor(System.String)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.ToneValue" />. </summary>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="value" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone0">
+            <summary> tone0. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone1">
+            <summary> tone1. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone2">
+            <summary> tone2. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone3">
+            <summary> tone3. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone4">
+            <summary> tone4. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone5">
+            <summary> tone5. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone6">
+            <summary> tone6. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone7">
+            <summary> tone7. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone8">
+            <summary> tone8. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Tone9">
+            <summary> tone9. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Star">
+            <summary> star. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Pound">
+            <summary> pound. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.A">
+            <summary> a. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.B">
+            <summary> b. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.C">
+            <summary> c. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.D">
+            <summary> d. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ToneValue.Flash">
+            <summary> flash. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneValue.op_Equality(Azure.Communication.CallingServer.ToneValue,Azure.Communication.CallingServer.ToneValue)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.ToneValue" /> values are the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneValue.op_Inequality(Azure.Communication.CallingServer.ToneValue,Azure.Communication.CallingServer.ToneValue)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CallingServer.ToneValue" /> values are not the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneValue.op_Implicit(System.String)~Azure.Communication.CallingServer.ToneValue">
+            <summary> Converts a string to a <see cref="T:Azure.Communication.CallingServer.ToneValue" />. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneValue.Equals(System.Object)">
+            <summary>Indicates whether this instance and a specified object are equal.</summary><param name="obj">The object to compare with the current instance.</param><returns><see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneValue.Equals(Azure.Communication.CallingServer.ToneValue)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneValue.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary><returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ToneValue.ToString">
+            <summary>Returns the fully qualified type name of this instance.</summary><returns>The fully qualified type name.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.#ctor(Azure.Core.Pipeline.ClientDiagnostics,Azure.Core.Pipeline.HttpPipeline,System.String,System.String)">
+            <summary> Initializes a new instance of ServerCallsRestClient. </summary>
+            <param name="clientDiagnostics"> The handler for diagnostic messaging in the client. </param>
+            <param name="pipeline"> The HTTP pipeline for sending and receiving REST requests and responses. </param>
+            <param name="endpoint"> The endpoint of the Azure Communication resource. </param>
+            <param name="apiVersion"> Api Version. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="endpoint" /> or <paramref name="apiVersion" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.AddParticipantAsync(System.String,Azure.Communication.PhoneNumberIdentifierModel,Azure.Communication.CommunicationIdentifierModel,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Add a participant to the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="alternateCallerId"> The alternate identity of source participant. </param>
+            <param name="participant"> The participant to be added to the call. </param>
+            <param name="operationContext"> The operation context. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.AddParticipant(System.String,Azure.Communication.PhoneNumberIdentifierModel,Azure.Communication.CommunicationIdentifierModel,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Add a participant to the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="alternateCallerId"> The alternate identity of source participant. </param>
+            <param name="participant"> The participant to be added to the call. </param>
+            <param name="operationContext"> The operation context. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.RemoveParticipantAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Remove participant from the call. </summary>
+            <param name="serverCallId"> Server call id. </param>
+            <param name="participantId"> Participant id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="participantId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.RemoveParticipant(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Remove participant from the call. </summary>
+            <param name="serverCallId"> Server call id. </param>
+            <param name="participantId"> Participant id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="participantId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.StartRecordingAsync(System.String,System.String,System.Nullable{Azure.Communication.CallingServer.RecordingContent},System.Nullable{Azure.Communication.CallingServer.RecordingChannel},System.Nullable{Azure.Communication.CallingServer.RecordingFormat},System.Threading.CancellationToken)">
+            <summary> Start recording of the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingStateCallbackUri"> The uri to send notifications to. </param>
+            <param name="recordingContentType"> Optional, audioVideo by default. </param>
+            <param name="recordingChannelType"> Optional, mixed by default. </param>
+            <param name="recordingFormatType"> Optional, mp4 by default. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.StartRecording(System.String,System.String,System.Nullable{Azure.Communication.CallingServer.RecordingContent},System.Nullable{Azure.Communication.CallingServer.RecordingChannel},System.Nullable{Azure.Communication.CallingServer.RecordingFormat},System.Threading.CancellationToken)">
+            <summary> Start recording of the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingStateCallbackUri"> The uri to send notifications to. </param>
+            <param name="recordingContentType"> Optional, audioVideo by default. </param>
+            <param name="recordingChannelType"> Optional, mixed by default. </param>
+            <param name="recordingFormatType"> Optional, mp4 by default. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.GetRecordingPropertiesAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Get call recording properties. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingId"> The recording id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="recordingId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.GetRecordingProperties(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Get call recording properties. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingId"> The recording id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="recordingId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.StopRecordingAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Stop recording the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingId"> The recording id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="recordingId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.StopRecording(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Stop recording the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingId"> The recording id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="recordingId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.PauseRecordingAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Pause recording the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingId"> The recording id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="recordingId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.PauseRecording(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Pause recording the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingId"> The recording id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="recordingId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.ResumeRecordingAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Resume recording the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingId"> The recording id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="recordingId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.ResumeRecording(System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Resume recording the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="recordingId"> The recording id. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> or <paramref name="recordingId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.JoinCallAsync(System.String,Azure.Communication.CommunicationIdentifierModel,System.String,System.String,System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.MediaType},System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.EventSubscriptionType},System.Threading.CancellationToken)">
+            <summary> Join a call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="source"> The source of the call. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="subject"> The subject. </param>
+            <param name="requestedMediaTypes"> The requested modalities. </param>
+            <param name="requestedCallEvents"> The requested call events to subscribe to. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" />, <paramref name="source" />, or <paramref name="callbackUri" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.JoinCall(System.String,Azure.Communication.CommunicationIdentifierModel,System.String,System.String,System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.MediaType},System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.EventSubscriptionType},System.Threading.CancellationToken)">
+            <summary> Join a call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="source"> The source of the call. </param>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="subject"> The subject. </param>
+            <param name="requestedMediaTypes"> The requested modalities. </param>
+            <param name="requestedCallEvents"> The requested call events to subscribe to. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" />, <paramref name="source" />, or <paramref name="callbackUri" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.PlayAudioAsync(System.String,System.String,System.Nullable{System.Boolean},System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="audioFileUri">
+            The media resource uri of the play audio request. 
+            Currently only Wave file (.wav) format audio prompts are supported.
+            More specifically, the audio content in the wave file must be mono (single-channel),
+            16-bit samples with a 16,000 (16KHz) sampling rate.
+            </param>
+            <param name="loop"> The flag indicating whether audio file needs to be played in loop or not. </param>
+            <param name="operationContext"> The value to identify context of the operation. </param>
+            <param name="audioFileId"> An id for the media in the AudioFileUri, using which we cache the media resource. </param>
+            <param name="callbackUri"> The callback Uri to receive PlayAudio status notifications. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCallsRestClient.PlayAudio(System.String,System.String,System.Nullable{System.Boolean},System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="serverCallId"> The server call id. </param>
+            <param name="audioFileUri">
+            The media resource uri of the play audio request. 
+            Currently only Wave file (.wav) format audio prompts are supported.
+            More specifically, the audio content in the wave file must be mono (single-channel),
+            16-bit samples with a 16,000 (16KHz) sampling rate.
+            </param>
+            <param name="loop"> The flag indicating whether audio file needs to be played in loop or not. </param>
+            <param name="operationContext"> The value to identify context of the operation. </param>
+            <param name="audioFileId"> An id for the media in the AudioFileUri, using which we cache the media resource. </param>
+            <param name="callbackUri"> The callback Uri to receive PlayAudio status notifications. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="serverCallId" /> is null. </exception>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallParticipant">
+            <summary> The participant in a call. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallParticipant.#ctor(Azure.Communication.CommunicationIdentifier,System.String,System.Boolean)">
+            <summary> Initializes a new instance of CallParticipant. </summary>
+            <param name="identifier"> The communication identifier. </param>
+            <param name="participantId"> Participant Id. </param>
+            <param name="isMuted"> Is participant muted. </param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallParticipant.Identifier">
+            <summary> The communication identifier. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallParticipant.ParticipantId">
+            <summary> Participant Id. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallParticipant.IsMuted">
+            <summary> Is participant muted. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.ContentTransferOptions">
+            <summary>
+            <see cref="T:Azure.Communication.CallingServer.ContentTransferOptions" /> is used to provide options for parallel transfers.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ContentTransferOptions.MaximumTransferSize">
+            <summary>
+            The maximum length of a transfer in bytes.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ContentTransferOptions.MaximumConcurrency">
+            <summary>
+            The maximum number of workers that may be used in a parallel transfer.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ContentTransferOptions.InitialTransferSize">
+            <summary>
+            The size of the first range request in bytes. Blobs smaller than this limit will
+            be downloaded in a single request. Blobs larger than this limit will continue being
+            downloaded in chunks of size <see cref="P:Azure.Communication.CallingServer.ContentTransferOptions.MaximumTransferSize" />.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ContentTransferOptions.Equals(System.Object)">
+            <summary>
+            Check if two ContentTransferOptions instances are equal.
+            </summary>
+            <param name="obj">The instance to compare to.</param>
+            <returns>True if they're equal, false otherwise.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ContentTransferOptions.GetHashCode">
+            <summary>
+            Get a hash code for the ParallelTransferOptions.
+            </summary>
+            <returns>Hash code for the ParallelTransferOptions.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ContentTransferOptions.op_Equality(Azure.Communication.CallingServer.ContentTransferOptions,Azure.Communication.CallingServer.ContentTransferOptions)">
+            <summary>
+            Check if two ParallelTransferOptions instances are equal.
+            </summary>
+            <param name="left">The first instance to compare.</param>
+            <param name="right">The second instance to compare.</param>
+            <returns>True if they're equal, false otherwise.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ContentTransferOptions.op_Inequality(Azure.Communication.CallingServer.ContentTransferOptions,Azure.Communication.CallingServer.ContentTransferOptions)">
+            <summary>
+            Check if two ParallelTransferOptions instances are equal.
+            </summary>
+            <param name="left">The first instance to compare.</param>
+            <param name="right">The second instance to compare.</param>
+            <returns>True if they're not equal, false otherwise.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ContentTransferOptions.Equals(Azure.Communication.CallingServer.ContentTransferOptions)">
+            <summary>
+            Check if two ParallelTransferOptions instances are equal.
+            </summary>
+            <param name="obj">The instance to compare to.</param>
+            <returns>True if they're equal, false otherwise.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CreateCallOptions">
+            <summary> The options for creating a call. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallOptions.AlternateCallerId">
+            <summary> The alternate caller id of the source. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallOptions.Subject">
+            <summary> The subject. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallOptions.CallbackUri">
+            <summary> The callback URI. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallOptions.RequestedMediaTypes">
+            <summary> The requested media types. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CreateCallOptions.RequestedCallEvents">
+            <summary> The requested call events to subscribe to. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CreateCallOptions.#ctor(System.Uri,System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.MediaType},System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.EventSubscriptionType})">
+            <summary> Initializes a new instance of CreateCallOptions. </summary>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="requestedMediaTypes"> The requested media types. </param>
+            <param name="requestedCallEvents"> The requested call events to subscribe to. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callbackUri" />, <paramref name="requestedMediaTypes" />, or <paramref name="requestedCallEvents" /> is null. </exception>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallingServerEventBase">
+            <summary>
+            Base type for all calling events.
+            </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.CallingServerEventType">
+            <summary>
+            The type of calling server event.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerEventType.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Azure.Communication.CallingServer.CallingServerEventType" /> struct.
+            </summary>
+            <param name="value">The asset file type</param>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallingServerEventType.CallConnectionStateChangedEvent">
+            <summary>
+            The call connection state change event type.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallingServerEventType.ToneReceivedEvent">
+            <summary>
+            The subscribe to tone event type.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallingServerEventType.PlayAudioResultEvent">
+            <summary>
+            The play audio result event type.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallingServerEventType.CallRecordingStateChangeEvent">
+            <summary>
+            The call recording state change event type.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallingServerEventType.AddParticipantResultEvent">
+            <summary>
+            The add participant result event type.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.CallingServerEventType.ParticipantsUpdatedEvent">
+            <summary>
+            The call state change event type.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerEventType.op_Equality(Azure.Communication.CallingServer.CallingServerEventType,Azure.Communication.CallingServer.CallingServerEventType)">
+            <summary>
+            Determines if two <see cref="T:Azure.Communication.CallingServer.CallingServerEventType" /> values are the same.
+            </summary>
+            <param name="left">The first <see cref="T:Azure.Communication.CallingServer.CallingServerEventType" /> to compare.</param>
+            <param name="right">The second <see cref="T:Azure.Communication.CallingServer.CallingServerEventType" /> to compare.</param>
+            <returns>True if <paramref name="left" /> and <paramref name="right" /> are the same; otherwise, false.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerEventType.op_Inequality(Azure.Communication.CallingServer.CallingServerEventType,Azure.Communication.CallingServer.CallingServerEventType)">
+            <summary>
+            Determines if two <see cref="T:Azure.Communication.CallingServer.CallingServerEventType" /> values are different.
+            </summary>
+            <param name="left">The first <see cref="T:Azure.Communication.CallingServer.CallingServerEventType" /> to compare.</param>
+            <param name="right">The second <see cref="T:Azure.Communication.CallingServer.CallingServerEventType" /> to compare.</param>
+            <returns>True if <paramref name="left" /> and <paramref name="right" /> are different; otherwise, false.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerEventType.Equals(Azure.Communication.CallingServer.CallingServerEventType)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerEventType.Equals(System.Object)">
+            <summary>Indicates whether this instance and a specified object are equal.</summary><param name="obj">The object to compare with the current instance.</param><returns><see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerEventType.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary><returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.CallingServerEventType.ToString">
+            <summary>Returns the fully qualified type name of this instance.</summary><returns>The fully qualified type name.</returns>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.ParticipantsUpdatedEvent">
+            <summary>
+            The participants updated event.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ParticipantsUpdatedEvent.#ctor(System.String,System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.CallParticipant})">
+            <summary> Initializes a new instance of ParticipantsUpdatedEvent. </summary>
+            <param name="callConnectionId"> The call connection id. </param>
+            <param name="participants"> The list of participants. </param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ParticipantsUpdatedEvent.Deserialize(System.String)">
+            <summary>
+            Deserialize <see cref="T:Azure.Communication.CallingServer.ParticipantsUpdatedEvent" /> event.
+            </summary>
+            <param name="content">The json content.</param>
+            <returns>The new <see cref="T:Azure.Communication.CallingServer.ParticipantsUpdatedEvent" /> object.</returns>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ParticipantsUpdatedEvent.CallConnectionId">
+            <summary> The call connection id. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ParticipantsUpdatedEvent.Participants">
+            <summary> The list of participants. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.JoinCallOptions">
+            <summary> The options for joining a call. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallOptions.Subject">
+            <summary> The subject. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallOptions.CallbackUri">
+            <summary> The callback URI. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallOptions.RequestedMediaTypes">
+            <summary> The requested media types. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.JoinCallOptions.RequestedCallEvents">
+            <summary> The requested call events to subscribe to. </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.JoinCallOptions.#ctor(System.Uri,System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.MediaType},System.Collections.Generic.IEnumerable{Azure.Communication.CallingServer.EventSubscriptionType})">
+            <summary> Initializes a new instance of JoinCallOptions. </summary>
+            <param name="callbackUri"> The callback URI. </param>
+            <param name="requestedMediaTypes"> The requested media types. </param>
+            <param name="requestedCallEvents"> The requested call events to subscribe to. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="callbackUri" />, <paramref name="requestedMediaTypes" />, or <paramref name="requestedCallEvents" /> is null. </exception>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.PlayAudioOptions">
+            <summary> Options for playing audio. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioOptions.AudioFileUri">
+            <summary>
+            The media resource uri of the play audio request.
+            Currently only Wave file (.wav) format audio prompts are supported.
+            More specifically, the audio content in the wave file must be mono (single-channel),
+            16-bit samples with a 16,000 (16KHz) sampling rate.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioOptions.Loop">
+            <summary> The flag indicating whether audio file needs to be played in loop or not. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioOptions.OperationContext">
+            <summary> The value to identify context of the operation. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioOptions.AudioFileId">
+            <summary> An id for the media in the AudioFileUri, using which we cache the media resource. </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.PlayAudioOptions.CallbackUri">
+            <summary> The callback Uri to receive PlayAudio status notifications. </summary>
+        </member>
+        <member name="T:Azure.Communication.CallingServer.ServerCall">
+            <summary>
+            The Azure Communication Services Server Call Client.
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CallingServer.ServerCall.ServerCallId">
+            <summary>
+            The server call id.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.#ctor(System.String,Azure.Communication.CallingServer.ServerCallsRestClient,Azure.Core.Pipeline.ClientDiagnostics)">
+            <summary>Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.ServerCall" />.</summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.#ctor">
+            <summary>Initializes a new instance of <see cref="T:Azure.Communication.CallingServer.ServerCall" /> for mocking.</summary>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.PlayAudioAsync(System.Uri,System.String,System.Uri,System.String,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="audioFileUri"> The uri of the audio file. </param>
+            <param name="audioFileId">Tne id for the media in the AudioFileUri, using which we cache the media resource. </param>
+            <param name="callbackUri">The callback Uri to receive PlayAudio status notifications. </param>
+            <param name="operationContext">The operation context. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.PlayAudio(System.Uri,System.String,System.Uri,System.String,System.Threading.CancellationToken)">
+            <summary> Play audio in the call. </summary>
+            <param name="audioFileUri"> The uri of the audio file. </param>
+            <param name="audioFileId">Tne id for the media in the AudioFileUri, using which we cache the media resource. </param>
+            <param name="callbackUri">The callback Uri to receive PlayAudio status notifications. </param>
+            <param name="operationContext">The operation context. </param>
+            <param name="cancellationToken"> The cancellation token to use. </param>
+            <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.AddParticipant(Azure.Communication.CommunicationIdentifier,System.Uri,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Add participant to the call.
+            </summary>
+            <param name="participant"> The identity of participant to be added to the call. </param>
+            <param name="callbackUri">The callback uri to receive the notification.</param>
+            <param name="alternateCallerId">The phone number to use when adding a pstn participant.</param>
+            <param name="operationContext">The operation context.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.AddParticipantAsync(Azure.Communication.CommunicationIdentifier,System.Uri,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Add participant to the call.
+            </summary>
+            <param name="participant"> The identity of participant to be added to the call. </param>
+            <param name="callbackUri"></param>
+            <param name="alternateCallerId">The phone number to use when adding a pstn participant.</param>
+            <param name="operationContext">The operation context.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.RemoveParticipant(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Remove participant from the call.
+            </summary>
+            <param name="participantId">The participant id.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.RemoveParticipantAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Remove participant from the call.
+            </summary>
+            <param name="participantId">The participant id.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.StartRecordingAsync(System.Uri,System.Nullable{Azure.Communication.CallingServer.RecordingContent},System.Nullable{Azure.Communication.CallingServer.RecordingChannel},System.Nullable{Azure.Communication.CallingServer.RecordingFormat},System.Threading.CancellationToken)">
+            <summary>
+            Start recording of the call.
+            </summary>
+            <param name="recordingStateCallbackUri">The uri to send state change callbacks.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <param name="content">content for recording.</param>
+            <param name="channel">channel for recording.</param>
+            <param name="format">format for recording.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.StartRecording(System.Uri,System.Nullable{Azure.Communication.CallingServer.RecordingContent},System.Nullable{Azure.Communication.CallingServer.RecordingChannel},System.Nullable{Azure.Communication.CallingServer.RecordingFormat},System.Threading.CancellationToken)">
+            <summary>
+            Start recording of the call.
+            </summary>
+            <param name="recordingStateCallbackUri">The uri to send state change callbacks.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <param name="content">content for recording.</param>
+            <param name="channel">channel for recording.</param>
+            <param name="format">format for recording.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.GetRecordingStateAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get the current recording state by recording id.
+            </summary>
+            <param name="recordingId">The recording id to get the state of.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.GetRecordingState(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Get the current recording state by recording id.
+            </summary>
+            <param name="recordingId">The recording id to get the state of.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.StopRecordingAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Stop recording of the call.
+            </summary>
+            <param name="recordingId">The recording id to stop.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.StopRecording(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Stop recording of the call.
+            </summary>
+            <param name="recordingId">The recording id to stop.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.PauseRecordingAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Pause recording of the call.
+            </summary>
+            <param name="recordingId">The recording id to pause.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.PauseRecording(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Pause recording of the call.
+            </summary>
+            <param name="recordingId">The recording id to pause.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.ResumeRecordingAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Resume recording of the call.
+            </summary>
+            <param name="recordingId">The recording id to pause.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="M:Azure.Communication.CallingServer.ServerCall.ResumeRecording(System.String,System.Threading.CancellationToken)">
+            <summary>
+            resume recording of the call.
+            </summary>
+            <param name="recordingId">The recording id to resume.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+        </member>
+        <member name="T:Azure.Communication.CommunicationCloudEnvironmentModel">
+            <summary> The cloud that the identifier belongs to. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironmentModel.#ctor(System.String)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.CommunicationCloudEnvironmentModel" />. </summary>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="value" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CommunicationCloudEnvironmentModel.Public">
+            <summary> public. </summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationCloudEnvironmentModel.Dod">
+            <summary> dod. </summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationCloudEnvironmentModel.Gcch">
+            <summary> gcch. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironmentModel.op_Equality(Azure.Communication.CommunicationCloudEnvironmentModel,Azure.Communication.CommunicationCloudEnvironmentModel)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CommunicationCloudEnvironmentModel" /> values are the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironmentModel.op_Inequality(Azure.Communication.CommunicationCloudEnvironmentModel,Azure.Communication.CommunicationCloudEnvironmentModel)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CommunicationCloudEnvironmentModel" /> values are not the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironmentModel.op_Implicit(System.String)~Azure.Communication.CommunicationCloudEnvironmentModel">
+            <summary> Converts a string to a <see cref="T:Azure.Communication.CommunicationCloudEnvironmentModel" />. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironmentModel.Equals(System.Object)">
+            <summary>Indicates whether this instance and a specified object are equal.</summary><param name="obj">The object to compare with the current instance.</param><returns><see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironmentModel.Equals(Azure.Communication.CommunicationCloudEnvironmentModel)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironmentModel.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary><returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironmentModel.ToString">
+            <summary>Returns the fully qualified type name of this instance.</summary><returns>The fully qualified type name.</returns>
+        </member>
+        <member name="T:Azure.Communication.CommunicationIdentifierModel">
+            <summary> Identifies a participant in Azure Communication services. A participant is, for example, a phone number or an Azure communication user. This model must be interpreted as a union: Apart from rawId, at most one further property may be set. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationIdentifierModel.#ctor">
+            <summary> Initializes a new instance of CommunicationIdentifierModel. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationIdentifierModel.#ctor(System.String,Azure.Communication.CommunicationUserIdentifierModel,Azure.Communication.PhoneNumberIdentifierModel,Azure.Communication.MicrosoftTeamsUserIdentifierModel)">
+            <summary> Initializes a new instance of CommunicationIdentifierModel. </summary>
+            <param name="rawId"> Raw Id of the identifier. Optional in requests, required in responses. </param>
+            <param name="communicationUser"> The communication user. </param>
+            <param name="phoneNumber"> The phone number. </param>
+            <param name="microsoftTeamsUser"> The Microsoft Teams user. </param>
+        </member>
+        <member name="P:Azure.Communication.CommunicationIdentifierModel.RawId">
+            <summary> Raw Id of the identifier. Optional in requests, required in responses. </summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationIdentifierModel.CommunicationUser">
+            <summary> The communication user. </summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationIdentifierModel.PhoneNumber">
+            <summary> The phone number. </summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationIdentifierModel.MicrosoftTeamsUser">
+            <summary> The Microsoft Teams user. </summary>
+        </member>
+        <member name="T:Azure.Communication.CommunicationUserIdentifierModel">
+            <summary> A user that got created with an Azure Communication Services resource. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationUserIdentifierModel.#ctor(System.String)">
+            <summary> Initializes a new instance of CommunicationUserIdentifierModel. </summary>
+            <param name="id"> The Id of the communication user. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="id" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CommunicationUserIdentifierModel.Id">
+            <summary> The Id of the communication user. </summary>
+        </member>
+        <member name="T:Azure.Communication.MicrosoftTeamsUserIdentifierModel">
+            <summary> A Microsoft Teams user. </summary>
+        </member>
+        <member name="M:Azure.Communication.MicrosoftTeamsUserIdentifierModel.#ctor(System.String)">
+            <summary> Initializes a new instance of MicrosoftTeamsUserIdentifierModel. </summary>
+            <param name="userId"> The Id of the Microsoft Teams user. If not anonymous, this is the AAD object Id of the user. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="userId" /> is null. </exception>
+        </member>
+        <member name="M:Azure.Communication.MicrosoftTeamsUserIdentifierModel.#ctor(System.String,System.Nullable{System.Boolean},System.Nullable{Azure.Communication.CommunicationCloudEnvironmentModel})">
+            <summary> Initializes a new instance of MicrosoftTeamsUserIdentifierModel. </summary>
+            <param name="userId"> The Id of the Microsoft Teams user. If not anonymous, this is the AAD object Id of the user. </param>
+            <param name="isAnonymous"> True if the Microsoft Teams user is anonymous. By default false if missing. </param>
+            <param name="cloud"> The cloud that the Microsoft Teams user belongs to. By default 'public' if missing. </param>
+        </member>
+        <member name="P:Azure.Communication.MicrosoftTeamsUserIdentifierModel.UserId">
+            <summary> The Id of the Microsoft Teams user. If not anonymous, this is the AAD object Id of the user. </summary>
+        </member>
+        <member name="P:Azure.Communication.MicrosoftTeamsUserIdentifierModel.IsAnonymous">
+            <summary> True if the Microsoft Teams user is anonymous. By default false if missing. </summary>
+        </member>
+        <member name="P:Azure.Communication.MicrosoftTeamsUserIdentifierModel.Cloud">
+            <summary> The cloud that the Microsoft Teams user belongs to. By default 'public' if missing. </summary>
+        </member>
+        <member name="T:Azure.Communication.PhoneNumberIdentifierModel">
+            <summary> A phone number. </summary>
+        </member>
+        <member name="M:Azure.Communication.PhoneNumberIdentifierModel.#ctor(System.String)">
+            <summary> Initializes a new instance of PhoneNumberIdentifierModel. </summary>
+            <param name="value"> The phone number in E.164 format. </param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="value" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.PhoneNumberIdentifierModel.Value">
+            <summary> The phone number in E.164 format. </summary>
+        </member>
+        <member name="T:Azure.Core.AppContextSwitchHelper">
+            <summary>
+            Helper for interacting with AppConfig settings and their related Environment variable settings.
+            </summary>
+        </member>
+        <member name="M:Azure.Core.AppContextSwitchHelper.GetConfigValue(System.String,System.String)">
+            <summary>
+            Determines if either an AppContext switch or its corresponding Environment Variable is set
+            </summary>
+            <param name="appContexSwitchName">Name of the AppContext switch.</param>
+            <param name="environmentVariableName">Name of the Environment variable.</param>
+            <returns>If the AppContext switch has been set, returns the value of the switch.
+            If the AppContext switch has not been set, returns the value of the environment variable.
+            False if neither is set.
+            </returns>
+        </member>
+        <member name="T:Azure.Core.Argument">
+            <summary>
+            Argument validation.
+            </summary>
+            <remarks>
+              <para>This class should be shared via source using Azure.Core.props and contain only common argument validation.
+                It is declared partial so that you can use the same familiar class name but extend it with project-specific validation.
+                To extend the functionality of this class, just declare your own partial <see cref="T:Azure.Core.Argument" /> class with project-specific methods.
+              </para>
+              <para>
+                Be sure to document exceptions thrown by these methods on your public methods.
+              </para>
+            </remarks>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNull``1(``0,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is null.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNull``1(System.Nullable{``0},System.String)">
+            <summary>
+            Throws if <paramref name="value" /> has not been initialized.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> has not been initialized.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is null or an empty collection.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentException"><paramref name="value" /> is an empty collection.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNullOrEmpty(System.String,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is null or an empty string.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentException"><paramref name="value" /> is an empty string.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNullOrWhiteSpace(System.String,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is null, an empty string, or consists only of white-space characters.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentException"><paramref name="value" /> is an empty string or consists only of white-space characters.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotDefault``1(``0@,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is the default value for type <typeparamref name="T" />.
+            </summary>
+            <typeparam name="T">The type of structure to validate which implements <see cref="T:System.IEquatable`1" />.</typeparam>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentException"><paramref name="value" /> is the default value for type <typeparamref name="T" />.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertInRange``1(``0,``0,``0,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is less than the <paramref name="minimum" /> or greater than the <paramref name="maximum" />.
+            </summary>
+            <typeparam name="T">The type of to validate which implements <see cref="T:System.IComparable`1" />.</typeparam>
+            <param name="value">The value to validate.</param>
+            <param name="minimum">The minimum value to compare.</param>
+            <param name="maximum">The maximum value to compare.</param>
+            <param name="name">The name of the parameter.</param>
+        </member>
+        <member name="M:Azure.Core.Argument.CheckNotNull``1(``0,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> has not been initialized; otherwise, returns <paramref name="value" />.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> has not been initialized.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.CheckNotNullOrEmpty(System.String,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is null or an empty string; otherwise, returns <paramref name="value" />.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentException"><paramref name="value" /> is an empty string.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> is null.</exception>
+        </member>
+        <member name="T:Azure.Core.ArrayBufferWriter`1">
+            <summary>
+            Represents a heap-based, array-backed output sink into which <typeparam name="T" /> data can be written.
+            </summary>
+        </member>
+        <member name="M:Azure.Core.ArrayBufferWriter`1.#ctor">
+            <summary>
+            Creates an instance of an <see cref="T:Azure.Core.ArrayBufferWriter`1" />, in which data can be written to,
+            with the default initial capacity.
+            </summary>
+        </member>
+        <member name="M:Azure.Core.ArrayBufferWriter`1.#ctor(System.Int32)">
+            <summary>
+            Creates an instance of an <see cref="T:Azure.Core.ArrayBufferWriter`1" />, in which data can be written to,
+            with an initial capacity specified.
+            </summary>
+            <param name="initialCapacity">The minimum capacity with which to initialize the underlying buffer.</param>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="initialCapacity" /> is not positive (i.e. less than or equal to 0).
+            </exception>
+        </member>
+        <member name="P:Azure.Core.ArrayBufferWriter`1.WrittenMemory">
+            <summary>
+            Returns the data written to the underlying buffer so far, as a <see cref="T:System.ReadOnlyMemory`1" />.
+            </summary>
+        </member>
+        <member name="P:Azure.Core.ArrayBufferWriter`1.WrittenSpan">
+            <summary>
+            Returns the data written to the underlying buffer so far, as a <see cref="T:System.ReadOnlySpan`1" />.
+            </summary>
+        </member>
+        <member name="P:Azure.Core.ArrayBufferWriter`1.WrittenCount">
+            <summary>
+            Returns the amount of data written to the underlying buffer so far.
+            </summary>
+        </member>
+        <member name="P:Azure.Core.ArrayBufferWriter`1.Capacity">
+            <summary>
+            Returns the total amount of space within the underlying buffer.
+            </summary>
+        </member>
+        <member name="P:Azure.Core.ArrayBufferWriter`1.FreeCapacity">
+            <summary>
+            Returns the amount of space available that can still be written into without forcing the underlying buffer to grow.
+            </summary>
+        </member>
+        <member name="M:Azure.Core.ArrayBufferWriter`1.Clear">
+            <summary>
+            Clears the data written to the underlying buffer.
+            </summary>
+            <remarks>
+            You must clear the <see cref="T:Azure.Core.ArrayBufferWriter`1" /> before trying to re-use it.
+            </remarks>
+        </member>
+        <member name="M:Azure.Core.ArrayBufferWriter`1.Advance(System.Int32)">
+            <summary>
+            Notifies <see cref="T:System.Buffers.IBufferWriter`1" /> that <paramref name="count" /> amount of data was written to the output <see cref="T:System.Span`1" />/<see cref="T:System.Memory`1" />.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="count" /> is negative.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            Thrown when attempting to advance past the end of the underlying buffer.
+            </exception>
+            <remarks>
+            You must request a new buffer after calling Advance to continue writing more data and cannot write to a previously acquired buffer.
+            </remarks>
+        </member>
+        <member name="M:Azure.Core.ArrayBufferWriter`1.GetMemory(System.Int32)">
+            <summary>
+            Returns a <see cref="T:System.Memory`1" /> to write to that is at least the requested length (specified by <paramref name="sizeHint" />).
+            If no <paramref name="sizeHint" /> is provided (or it's equal to <code>0</code>), some non-empty buffer is returned.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="sizeHint" /> is negative.
+            </exception>
+            <remarks>
+            This will never return an empty <see cref="T:System.Memory`1" />.
+            </remarks>
+            <remarks>
+            There is no guarantee that successive calls will return the same buffer or the same-sized buffer.
+            </remarks>
+            <remarks>
+            You must request a new buffer after calling Advance to continue writing more data and cannot write to a previously acquired buffer.
+            </remarks>
+        </member>
+        <member name="M:Azure.Core.ArrayBufferWriter`1.GetSpan(System.Int32)">
+            <summary>
+            Returns a <see cref="T:System.Span`1" /> to write to that is at least the requested length (specified by <paramref name="sizeHint" />).
+            If no <paramref name="sizeHint" /> is provided (or it's equal to <code>0</code>), some non-empty buffer is returned.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            Thrown when <paramref name="sizeHint" /> is negative.
+            </exception>
+            <remarks>
+            This will never return an empty <see cref="T:System.Span`1" />.
+            </remarks>
+            <remarks>
+            There is no guarantee that successive calls will return the same buffer or the same-sized buffer.
+            </remarks>
+            <remarks>
+            You must request a new buffer after calling Advance to continue writing more data and cannot write to a previously acquired buffer.
+            </remarks>
+        </member>
+        <member name="T:Azure.Core.AzureResourceProviderNamespaceAttribute">
+            <summary>
+            This attribute should be set on all client assemblies with value of one of the resource providers
+            from the https://docs.microsoft.com/azure/azure-resource-manager/management/azure-services-resource-providers list.
+            </summary>
+        </member>
+        <member name="M:Azure.Core.Pipeline.ClientDiagnostics.ExtractFailureContent(System.String,Azure.Core.ResponseHeaders,System.String@,System.String@,System.Collections.Generic.IDictionary{System.String,System.String}@)">
+            <summary>
+            Partial method that can optionally be defined to extract the error
+            message, code, and details in a service specific manner.
+            </summary>
+            <param name="content">The error content.</param>
+            <param name="responseHeaders">The response headers.</param>
+            <param name="message">The error message.</param>
+            <param name="errorCode">The error code.</param>
+            <param name="additionalInfo">Additional error details.</param>
+        </member>
+        <member name="T:Azure.Core.Pipeline.DiagnosticScope.ActivityKind">
+            <summary>
+            Kind describes the relationship between the Activity, its parents, and its children in a Trace.
+            </summary>
+        </member>
+        <member name="F:Azure.Core.Pipeline.DiagnosticScope.ActivityKind.Internal">
+            <summary>
+            Default value.
+            Indicates that the Activity represents an internal operation within an application, as opposed to an operations with remote parents or children.
+            </summary>
+        </member>
+        <member name="F:Azure.Core.Pipeline.DiagnosticScope.ActivityKind.Server">
+            <summary>
+            Server activity represents request incoming from external component.
+            </summary>
+        </member>
+        <member name="F:Azure.Core.Pipeline.DiagnosticScope.ActivityKind.Client">
+            <summary>
+            Client activity represents outgoing request to the external component.
+            </summary>
+        </member>
+        <member name="F:Azure.Core.Pipeline.DiagnosticScope.ActivityKind.Producer">
+            <summary>
+            Producer activity represents output provided to external components.
+            </summary>
+        </member>
+        <member name="F:Azure.Core.Pipeline.DiagnosticScope.ActivityKind.Consumer">
+            <summary>
+            Consumer activity represents output received from an external component.
+            </summary>
+        </member>
+        <member name="T:Azure.Core.Pipeline.ActivityExtensions">
+            <summary>
+            Until we can reference the 5.0 of System.Diagnostics.DiagnosticSource
+            </summary>
+        </member>
+        <member name="T:Azure.Core.Pipeline.TaskExtensions.Enumerable`1">
+            <summary>
+            Both <see cref="T:Azure.Core.Pipeline.TaskExtensions.Enumerable`1" /> and <see cref="T:Azure.Core.Pipeline.TaskExtensions.Enumerator`1" /> are defined as public structs so that foreach can use duck typing
+            to call <see cref="M:Azure.Core.Pipeline.TaskExtensions.Enumerable`1.GetEnumerator" /> and avoid heap memory allocation.
+            Please don't delete this method and don't make these types private.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Azure.Core.CodeGenModelAttribute.Usage">
+            <summary>
+            Gets or sets a coma separated list of additional model usage modes. Allowed values: model, error, intput, output.
+            </summary>
+        </member>
+        <member name="P:Azure.Core.CodeGenModelAttribute.Formats">
+            <summary>
+            Gets or sets a coma separated list of additional model serialization formats.
+            </summary>
+        </member>
+        <member name="T:Azure.Core.LowLevelBinaryDataOperation">
+            <summary>
+            The common operation type used by all low level client methods. The result of the operation is the `Response.Content` property of the final state.
+            </summary>
+        </member>
+        <member name="P:Azure.Core.LowLevelBinaryDataOperation.Id">
+            <summary>
+            Gets an ID representing the operation that can be used to poll for
+            the status of the long-running operation.
+            </summary>
+        </member>
+        <member name="P:Azure.Core.LowLevelBinaryDataOperation.Value">
+            <summary>
+            Final result of the long-running operation.
+            </summary><remarks>
+            This property can be accessed only after the operation completes successfully (HasValue is true).
+            </remarks>
+        </member>
+        <member name="P:Azure.Core.LowLevelBinaryDataOperation.HasCompleted">
+            <summary>
+            Returns true if the long-running operation completed.
+            </summary>
+        </member>
+        <member name="P:Azure.Core.LowLevelBinaryDataOperation.HasValue">
+            <summary>
+            Returns true if the long-running operation completed successfully and has produced final result (accessible by Value property).
+            </summary>
+        </member>
+        <member name="M:Azure.Core.LowLevelBinaryDataOperation.GetRawResponse">
+            <summary>
+            The last HTTP response received from the server.
+            </summary><remarks>
+            The last response returned from the server during the lifecycle of this instance.
+            An instance of <see cref="T:Azure.Operation`1" /> sends requests to a server in UpdateStatusAsync, UpdateStatus, and other methods.
+            Responses from these requests can be accessed using GetRawResponse.
+            </remarks>
+        </member>
+        <member name="M:Azure.Core.LowLevelBinaryDataOperation.UpdateStatus(System.Threading.CancellationToken)">
+            <summary>
+            Calls the server to get updated status of the long-running operation.
+            </summary><param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> used for the service call.</param><returns>The HTTP response received from the server.</returns><remarks>
+            This operation will update the value returned from GetRawResponse and might update HasCompleted, HasValue, and Value.
+            </remarks>
+        </member>
+        <member name="M:Azure.Core.LowLevelBinaryDataOperation.UpdateStatusAsync(System.Threading.CancellationToken)">
+            <summary>
+            Calls the server to get updated status of the long-running operation.
+            </summary><param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> used for the service call.</param><returns>The HTTP response received from the server.</returns><remarks>
+            This operation will update the value returned from GetRawResponse and might update HasCompleted, HasValue, and Value.
+            </remarks>
+        </member>
+        <member name="M:Azure.Core.LowLevelBinaryDataOperation.WaitForCompletionAsync(System.Threading.CancellationToken)">
+            <summary>
+            Periodically calls the server till the long-running operation completes.
+            </summary><param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> used for the periodical service calls.</param><returns>The last HTTP response received from the server.</returns><remarks>
+            This method will periodically call UpdateStatusAsync till HasCompleted is true, then return the final result of the operation.
+            </remarks>
+        </member>
+        <member name="M:Azure.Core.LowLevelBinaryDataOperation.WaitForCompletionAsync(System.TimeSpan,System.Threading.CancellationToken)">
+            <summary>
+            Periodically calls the server till the long-running operation completes.
+            </summary><param name="pollingInterval">
+            The interval between status requests to the server.
+            The interval can change based on information returned from the server.
+            For example, the server might communicate to the client that there is not reason to poll for status change sooner than some time.
+            </param><param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> used for the periodical service calls.</param><returns>The last HTTP response received from the server.</returns><remarks>
+            This method will periodically call UpdateStatusAsync till HasCompleted is true, then return the final result of the operation.
+            </remarks>
+        </member>
+        <member name="T:Azure.Core.OperationInternals">
+            <summary>
+            This implements the ARM scenarios for LROs. It is highly recommended to read the ARM spec prior to modifying this code:
+            https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/Addendum.md#asynchronous-operations
+            Other reference documents include:
+            https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-long-running-operation
+            https://github.com/Azure/adx-documentation-pr/blob/master/sdks/LRO/LRO_AzureSDK.md
+            </summary>
+        </member>
+        <member name="T:Azure.Core.OperationInternals`1">
+            <summary>
+            This implements the ARM scenarios for LROs. It is highly recommended to read the ARM spec prior to modifying this code:
+            https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/Addendum.md#asynchronous-operations
+            Other reference documents include:
+            https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-long-running-operation
+            https://github.com/Azure/adx-documentation-pr/blob/master/sdks/LRO/LRO_AzureSDK.md
+            </summary>
+            <typeparam name="T">The final result of the LRO.</typeparam>
+        </member>
+        <member name="T:Azure.Core.OperationOrResponseInternals">
+            <summary>
+            This implements the ARM scenarios for LROs. It is highly recommended to read the ARM spec prior to modifying this code:
+            https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/Addendum.md#asynchronous-operations
+            Other reference documents include:
+            https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-long-running-operation
+            https://github.com/Azure/adx-documentation-pr/blob/master/sdks/LRO/LRO_AzureSDK.md
+            </summary>
+        </member>
+        <member name="T:Azure.Core.OperationOrResponseInternals`1">
+            <summary>
+            This implements the ARM scenarios for LROs. It is highly recommended to read the ARM spec prior to modifying this code:
+            https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/Addendum.md#asynchronous-operations
+            Other reference documents include:
+            https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-long-running-operation
+            https://github.com/Azure/adx-documentation-pr/blob/master/sdks/LRO/LRO_AzureSDK.md
+            </summary>
+            <typeparam name="T">The final result of the LRO.</typeparam>
+        </member>
+        <member name="M:Azure.Core.ChangeTrackingDictionary`2.System#Collections#IEnumerable#GetEnumerator">
+            <summary>Returns an enumerator that iterates through a collection.</summary><returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="P:Azure.Core.ChangeTrackingDictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey@TValue}#Keys">
+            <summary>Gets an enumerable collection that contains the keys in the read-only dictionary.</summary><returns>An enumerable collection that contains the keys in the read-only dictionary.</returns>
+        </member>
+        <member name="P:Azure.Core.ChangeTrackingDictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey@TValue}#Values">
+            <summary>Gets an enumerable collection that contains the values in the read-only dictionary.</summary><returns>An enumerable collection that contains the values in the read-only dictionary.</returns>
+        </member>
+        <member name="M:Azure.Core.ChangeTrackingList`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>Returns an enumerator that iterates through a collection.</summary><returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Azure.Core.Pipeline.TaskExtensions.Enumerable`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator">
+            <summary>Returns an enumerator that iterates through the collection.</summary><returns>An enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Azure.Core.Pipeline.TaskExtensions.Enumerable`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>Returns an enumerator that iterates through a collection.</summary><returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="P:Azure.Core.Pipeline.TaskExtensions.Enumerator`1.System#Collections#IEnumerator#Current">
+            <summary>Gets the element in the collection at the current position of the enumerator.</summary><returns>The element in the collection at the current position of the enumerator.</returns>
+        </member>
+    </members>
+</doc>

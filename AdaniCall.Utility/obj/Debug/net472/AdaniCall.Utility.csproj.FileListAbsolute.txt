@@ -1,0 +1,8 @@
+D:\Project\AdaniTeams\AdaniCall.Utility\bin\Debug\net472\AdaniCall.Utility.dll
+D:\Project\AdaniTeams\AdaniCall.Utility\bin\Debug\net472\AdaniCall.Utility.pdb
+D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.AssemblyInfoInputs.cache
+D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.AssemblyInfo.cs
+D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.csproj.CoreCompileInputs.cache
+D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.dll
+D:\Project\AdaniTeams\AdaniCall.Utility\obj\Debug\net472\AdaniCall.Utility.pdb

@@ -1,0 +1,83 @@
+LogTime : 3:19:42 PM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile(output))
+
+Error Source : 
+ 
+Error Message : [{"id":"9cbe72e9-c90d-4387-8314-a6ac28103010","source":"calling/callConnections/5c1f6400-4ef5-4bdd-ab87-13d1fee94d11/callRecordingState","type":"Microsoft.Communication.CallRecordingStateChanged","data":{"recordingId":"eyJQbGF0Zm9ybUVuZHBvaW50SWQiOiI1YzFmNjQwMC00ZWY1LTRiZGQtYWI4Ny0xM2QxZmVlOTRkMTEiLCJSZXNvdXJjZVNwZWNpZmljSWQiOiI4NzY1NDgwZC0wYTU5LTRmMzgtYjk4YS1lZmU5NjEyNmYwZDgifQ","state":"active","startDateTime":"2022-06-02T15:19:36.8107366+00:00","serverCallId":"aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWpwZWEtMDYuY29udi5za3lwZS5jb20vY29udi9rYjRjc01DM3dFS0dCd2RmdnRuOGFRP2k9MzgmZT02Mzc4OTAxODM5MjgxODg3MDc"},"time":"2022-06-02T15:19:41.9228757+00:00","specversion":"1.0","datacontenttype":"application/json","subject":"calling/callConnections/5c1f6400-4ef5-4bdd-ab87-13d1fee94d11/callRecordingState"}]
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:19:42 PM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext()
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:24:58 PM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile(output))
+
+Error Source : 
+ 
+Error Message : [{"id":"c0ca7b4e-6f8d-4e1a-8f06-c2d2287d46f8","topic":"/subscriptions/bfaa31df-dfc4-414f-8874-d595bfed2be9/resourcegroups/agcx/providers/microsoft.communication/communicationservices/teamscall","subject":"/recording/call/b89c7734-6ed1-4b06-8c70-027183d4c897/serverCallId/aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWtyY2UtMDguY29udi5za3lwZS5jb20vY29udi9NTEdRZkM2RmVrNkJ5OFctVmxjSDBnP2k9MjAmZT02Mzc4OTE5MTM2ODkxNTA4ODE/recordingId/eyJQbGF0Zm9ybUVuZHBvaW50SWQiOiI2YjFmNjgwMC0yM2M5LTRhZTktYmFkNy0zN2U1MmYwOTY0ZjMiLCJSZXNvdXJjZVNwZWNpZmljSWQiOiIxNzc4ZjRlYS1lMzIyLTQ3YzItYjY4OS02YjUyYjBlZWIzNTgifQ","data":{"recordingStorageInfo":{"recordingChunks":[{"documentId":"0-wus-d9-6c755282caf3f05944d1da3f8d43874d","index":0,"endReason":"SessionEnded","contentLocation":"https://us-storage.asm.skype.com/v1/objects/0-wus-d9-6c755282caf3f05944d1da3f8d43874d/content/video","metadataLocation":"https://us-storage.asm.skype.com/v1/objects/0-wus-d9-6c755282caf3f05944d1da3f8d43874d/content/acsmetadata","deleteLocation":"https://us-storage.asm.skype.com/v1/objects/0-wus-d9-6c755282caf3f05944d1da3f8d43874d"}]},"recordingStartTime":"2022-06-02T15:24:09.5583381Z","recordingDurationMs":45080,"sessionEndReason":"CallEnded"},"eventType":"Microsoft.Communication.RecordingFileStatusUpdated","dataVersion":"1.0","metadataVersion":"1","eventTime":"2022-06-02T15:24:58.4556408Z"}]
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:40:51 PM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile(output))
+
+Error Source : 
+ 
+Error Message : [{"id":"da9fdc9f-cdd8-4863-ba45-ff02f4696287","source":"calling/callConnections/6c1f6800-81ba-4cc4-bec7-b15560d003bd/callRecordingState","type":"Microsoft.Communication.CallRecordingStateChanged","data":{"recordingId":"eyJQbGF0Zm9ybUVuZHBvaW50SWQiOiI2YzFmNjgwMC04MWJhLTRjYzQtYmVjNy1iMTU1NjBkMDAzYmQiLCJSZXNvdXJjZVNwZWNpZmljSWQiOiJkNTc3MjhlNS02MDE5LTQ3NGMtYjdiOS1mNTY0NDYyY2UzMDgifQ","state":"active","startDateTime":"2022-06-02T15:40:45.9631227+00:00","serverCallId":"aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWpwd2UtMDUuY29udi5za3lwZS5jb20vY29udi9kRHZTZXQ2M0xraUZWN0tsVlY5S0x3P2k9NDAmZT02Mzc4ODkzNzMyNjg0NjI4NDM"},"time":"2022-06-02T15:40:50.8474042+00:00","specversion":"1.0","datacontenttype":"application/json","subject":"calling/callConnections/6c1f6800-81ba-4cc4-bec7-b15560d003bd/callRecordingState"}]
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:40:51 PM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext()
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:41:22 PM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile(output))
+
+Error Source : 
+ 
+Error Message : [{"id":"157b69a9-e691-4fac-b5ec-c130045cd1ec","topic":"/subscriptions/bfaa31df-dfc4-414f-8874-d595bfed2be9/resourcegroups/agcx/providers/microsoft.communication/communicationservices/teamscall","subject":"/recording/call/47eedc27-60e7-4586-8c06-2f062c916ae5/serverCallId/aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWpwd2UtMDUuY29udi5za3lwZS5jb20vY29udi9kRHZTZXQ2M0xraUZWN0tsVlY5S0x3P2k9NDAmZT02Mzc4ODkzNzMyNjg0NjI4NDM/recordingId/eyJQbGF0Zm9ybUVuZHBvaW50SWQiOiI2YzFmNjgwMC04MWJhLTRjYzQtYmVjNy1iMTU1NjBkMDAzYmQiLCJSZXNvdXJjZVNwZWNpZmljSWQiOiJkNTc3MjhlNS02MDE5LTQ3NGMtYjdiOS1mNTY0NDYyY2UzMDgifQ","data":{"recordingStorageInfo":{"recordingChunks":[{"documentId":"0-wus-d4-93f2f81f444551a5e5e2805179bd88ab","index":0,"endReason":"SessionEnded","contentLocation":"https://us-storage.asm.skype.com/v1/objects/0-wus-d4-93f2f81f444551a5e5e2805179bd88ab/content/video","metadataLocation":"https://us-storage.asm.skype.com/v1/objects/0-wus-d4-93f2f81f444551a5e5e2805179bd88ab/content/acsmetadata","deleteLocation":"https://us-storage.asm.skype.com/v1/objects/0-wus-d4-93f2f81f444551a5e5e2805179bd88ab"}]},"recordingStartTime":"2022-06-02T15:40:44.9092206Z","recordingDurationMs":32940,"sessionEndReason":"CallEnded"},"eventType":"Microsoft.Communication.RecordingFileStatusUpdated","dataVersion":"1.0","metadataVersion":"1","eventTime":"2022-06-02T15:41:21.9557986Z"}]
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 3:41:22 PM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile(cloudEvent.Id))
+
+Error Source : 
+ 
+Error Message : 157b69a9-e691-4fac-b5ec-c130045cd1ec
+ 
+ 
+ 
+======================================== 
+ 

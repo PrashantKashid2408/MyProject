@@ -1,0 +1,163 @@
+LogTime : 11:38:49 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:40:59 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:44:18 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDkuY29udi5za3lwZS5jb206NDQzL2NvbnYva3J2NXhnY1l5VW1XV2RYZmR2MnNRQT9pPTUwJmU9NjM3NzE3Mzk4Mjk4NzcxMjQz,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: d944224b-0ff3-42fa-abcc-7fcbd10b1957
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Mon, 08 Nov 2021 06:14:16 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:47:41 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDkuY29udi5za3lwZS5jb206NDQzL2NvbnYvRDFlWWZSU1NURTJBV2JySGd4RWdrdz9pPTEmZT02Mzc3MTc0MDQxMTQ2NzQ2NzU,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 967e8d61-2b15-443e-bd29-26bae9551258
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Mon, 08 Nov 2021 06:17:40 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:48:35 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDkuY29udi5za3lwZS5jb206NDQzL2NvbnYvbHNxdFlnSDlXMEN1WWpPWDJVbFExZz9pPTEmZT02Mzc3MTc0MDQxMTQ2NzQ2NzU,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 8ef25c8a-a7d2-49a4-8178-a59e67530e35
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Mon, 08 Nov 2021 06:18:35 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:23:12 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:23:32 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:57:51 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 

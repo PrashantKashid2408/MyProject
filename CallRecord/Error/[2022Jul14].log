@@ -1,0 +1,204 @@
+LogTime : 11:04:26 
+Module Name : DataAccess.Transaction (ExecuteTransaction)
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:04:27 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:13:49 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:33:43 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source System.Text.Json,Message:The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.
+ 
+Error Message :    at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFileDB>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 144
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:35:16 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source CallRecord,Message:Object reference not set to an instance of an object.
+ 
+Error Message :    at AdaniCall.Controllers.API.RecordingController.<GetRecordingFileDB>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 148
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:36:48 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9hcGkuZmxpZ2h0cHJveHkuc2t5cGUuY29tL2FwaS92Mi9jcC9jb252LWtyY2UtMDcuY29udi5za3lwZS5jb20vY29udi9xalVONHhDNzVFZVViT2VkeEhHRF9nP2k9MjgmZT02Mzc5MjEzMTA5NDI3MTgyNDY,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 2cc085b4-9fa8-4ae7-930c-045932141d73
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Thu, 14 Jul 2022 07:06:41 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:37:02 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=14))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: 4ULmQc8+1kCOUi/z3ghUtw.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 0f22c4ef-ecf8-48f9-b9ef-135c1bc91a24
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Thu, 14 Jul 2022 13:06:53 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:37:20 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=14))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: XZQ+gQs/7kaLiHnWA46isA.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 0da0130c-1725-46e5-aaa0-ce2837f21cf9
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Thu, 14 Jul 2022 13:07:10 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:37:37 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=12))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: 5Yf63N6PJ0qbNJR1zPvVLw.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 6d881e02-4324-45ca-bd88-9ed30e3e676d
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Thu, 14 Jul 2022 13:07:31 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:59:47 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=15))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: YpCsxVeHAkqJs0XgY934sg.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: a99348ce-a925-44a5-9f75-4af817f49432
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Thu, 14 Jul 2022 13:28:36 GMT
+
+ 
+ 
+ 
+======================================== 
+ 

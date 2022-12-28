@@ -1,0 +1,12 @@
+D:\Project\AdaniTeams\AdaniCall.Entity\bin\Debug\net5.0\AdaniCall.Entity.deps.json
+D:\Project\AdaniTeams\AdaniCall.Entity\bin\Debug\net5.0\AdaniCall.Entity.dll
+D:\Project\AdaniTeams\AdaniCall.Entity\bin\Debug\net5.0\ref\AdaniCall.Entity.dll
+D:\Project\AdaniTeams\AdaniCall.Entity\bin\Debug\net5.0\AdaniCall.Entity.pdb
+D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net5.0\AdaniCall.Entity.csproj.AssemblyReference.cache
+D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net5.0\AdaniCall.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net5.0\AdaniCall.Entity.AssemblyInfoInputs.cache
+D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net5.0\AdaniCall.Entity.AssemblyInfo.cs
+D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net5.0\AdaniCall.Entity.csproj.CoreCompileInputs.cache
+D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net5.0\AdaniCall.Entity.dll
+D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net5.0\ref\AdaniCall.Entity.dll
+D:\Project\AdaniTeams\AdaniCall.Entity\obj\Debug\net5.0\AdaniCall.Entity.pdb

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+    <assembly>
+        <name>Azure.Communication.Common</name>
+    </assembly>
+    <members>
+        <member name="T:Azure.Communication.CommunicationCloudEnvironment">
+            <summary> The cloud that the identifier belongs to. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironment.#ctor(System.String)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CommunicationCloudEnvironment" /> values are the same. </summary>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="value" /> is null. </exception>
+        </member>
+        <member name="P:Azure.Communication.CommunicationCloudEnvironment.Public">
+            <summary> public. </summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationCloudEnvironment.Dod">
+            <summary> dod. </summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationCloudEnvironment.Gcch">
+            <summary> gcch. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironment.op_Equality(Azure.Communication.CommunicationCloudEnvironment,Azure.Communication.CommunicationCloudEnvironment)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CommunicationCloudEnvironment" /> values are the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironment.op_Inequality(Azure.Communication.CommunicationCloudEnvironment,Azure.Communication.CommunicationCloudEnvironment)">
+            <summary> Determines if two <see cref="T:Azure.Communication.CommunicationCloudEnvironment" /> values are not the same. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironment.op_Implicit(System.String)~Azure.Communication.CommunicationCloudEnvironment">
+            <summary> Converts a string to a <see cref="T:Azure.Communication.CommunicationCloudEnvironment" />. </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironment.Equals(System.Object)">
+            <summary>Indicates whether this instance and a specified object are equal.</summary><param name="obj">The object to compare with the current instance.</param><returns><see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironment.Equals(Azure.Communication.CommunicationCloudEnvironment)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironment.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary><returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationCloudEnvironment.ToString">
+            <summary>Returns the fully qualified type name of this instance.</summary><returns>The fully qualified type name.</returns>
+        </member>
+        <member name="T:Azure.Communication.CommunicationIdentifier">
+            <summary>Represents an identifier in Azure Communication Services.</summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationIdentifier.Equals(Azure.Communication.CommunicationIdentifier)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationIdentifier.Equals(System.Object)">
+            <summary>Determines whether the specified object is equal to the current object.</summary><param name="obj">The object to compare with the current object.</param><returns><see langword="true" /> if the specified object  is equal to the current object; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="T:Azure.Communication.CommunicationTokenCredential">
+            <summary>
+            The Azure Communication Services Token Credential.
+            </summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationTokenCredential.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:Azure.Communication.CommunicationTokenCredential" />.
+            </summary>
+            <param name="token">User token acquired from Azure.Communication.Administration package.</param>
+        </member>
+        <member name="M:Azure.Communication.CommunicationTokenCredential.#ctor(Azure.Communication.CommunicationTokenRefreshOptions)">
+            <summary>
+            Initializes a new instance of <see cref="T:Azure.Communication.CommunicationTokenCredential" /> that automatically renews the token upon expiry or proactively prior to expiration to speed up the requests.
+            </summary>
+            <param name="options">Options for how the token will be refreshed</param>
+        </member>
+        <member name="M:Azure.Communication.CommunicationTokenCredential.GetTokenAsync(System.Threading.CancellationToken)">
+            <summary>
+            Gets an <see cref="T:Azure.Core.AccessToken" /> for the user.
+            </summary>
+            <param name="cancellationToken">The cancellation token for the task.</param>
+            <returns>
+            A task that represents the asynchronous get token operation. The value of its <see cref="P:System.Threading.Tasks.ValueTask`1.Result" /> property contains the access token for the user.
+            </returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationTokenCredential.GetToken(System.Threading.CancellationToken)">
+            <summary>
+            Gets an <see cref="T:Azure.Core.AccessToken" /> for the user.
+            </summary>
+            <param name="cancellationToken">The cancellation token for the task.</param>
+            <returns>/// Contains the access token for the user.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationTokenCredential.Dispose">
+            <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
+        </member>
+        <member name="T:Azure.Communication.CommunicationTokenRefreshOptions">
+            <summary>
+            The Communication Token Refresh Options
+            </summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationTokenRefreshOptions.InitialToken">
+            <summary>The initial token.</summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationTokenRefreshOptions.AsyncTokenRefresher">
+            <summary>The asynchronous token refresher.</summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationTokenRefreshOptions.#ctor(System.Boolean,System.Func{System.Threading.CancellationToken,System.String})">
+            <summary>
+            Initializes a new instance of <see cref="T:Azure.Communication.CommunicationTokenRefreshOptions" />.
+            </summary>
+            <param name="refreshProactively">Indicates whether the token should be proactively renewed prior to expiry or renew on demand.</param>
+            <param name="tokenRefresher">The function that provides the token acquired from CommunicationIdentityClient.</param>
+        </member>
+        <member name="T:Azure.Communication.CommunicationUserIdentifier">
+            <summary>Represents a user in Azure Communication Services.</summary>
+        </member>
+        <member name="P:Azure.Communication.CommunicationUserIdentifier.Id">
+            <summary>The id of the communication user.</summary>
+        </member>
+        <member name="M:Azure.Communication.CommunicationUserIdentifier.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:Azure.Communication.CommunicationUserIdentifier" />.
+            </summary>
+            <param name="id">Id of the communication user.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when the <paramref name="id" /> is null.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when the <paramref name="id" /> is empty.
+            </exception>
+        </member>
+        <member name="M:Azure.Communication.CommunicationUserIdentifier.ToString">
+            <summary>Returns a string that represents the current object.</summary><returns>A string that represents the current object.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationUserIdentifier.GetHashCode">
+            <summary>Serves as the default hash function.</summary><returns>A hash code for the current object.</returns>
+        </member>
+        <member name="M:Azure.Communication.CommunicationUserIdentifier.Equals(Azure.Communication.CommunicationIdentifier)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="T:Azure.Communication.MicrosoftTeamsUserIdentifier">
+            <summary>Represents a Microsoft Teams user.</summary>
+        </member>
+        <member name="P:Azure.Communication.MicrosoftTeamsUserIdentifier.RawId">
+            <summary>The optional raw id of the Microsoft Teams User identifier.</summary>
+        </member>
+        <member name="P:Azure.Communication.MicrosoftTeamsUserIdentifier.UserId">
+            <summary>The id of the Microsoft Teams user. If the user isn't anonymous, the id is the AAD object id of the user.</summary>
+        </member>
+        <member name="P:Azure.Communication.MicrosoftTeamsUserIdentifier.IsAnonymous">
+            <summary>True if the user is anonymous, for example when joining a meeting with a share link.</summary>
+        </member>
+        <member name="P:Azure.Communication.MicrosoftTeamsUserIdentifier.Cloud">
+            <summary> The cloud that the identifier belongs to. </summary>
+        </member>
+        <member name="M:Azure.Communication.MicrosoftTeamsUserIdentifier.#ctor(System.String,System.Boolean,System.Nullable{Azure.Communication.CommunicationCloudEnvironment},System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:Azure.Communication.MicrosoftTeamsUserIdentifier" />.
+            </summary>
+            <param name="userId">Id of the Microsoft Teams user. If the user isn't anonymous, the id is the AAD object id of the user.</param>
+            <param name="isAnonymous">Set this to true if the user is anonymous, for example when joining a meeting with a share link.</param>
+            <param name="cloud">The cloud that the Microsoft Team user belongs to. A null value translates to the Public cloud.</param>
+            <param name="rawId">Raw id of the Microsoft Teams user, optional.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when the <paramref name="userId" /> is null.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when the <paramref name="userId" /> is empty.
+            </exception>
+        </member>
+        <member name="M:Azure.Communication.MicrosoftTeamsUserIdentifier.ToString">
+            <summary>Returns a string that represents the current object.</summary><returns>A string that represents the current object.</returns>
+        </member>
+        <member name="M:Azure.Communication.MicrosoftTeamsUserIdentifier.GetHashCode">
+            <summary>Serves as the default hash function.</summary><returns>A hash code for the current object.</returns>
+        </member>
+        <member name="M:Azure.Communication.MicrosoftTeamsUserIdentifier.Equals(Azure.Communication.CommunicationIdentifier)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="T:Azure.Communication.PhoneNumberIdentifier">
+            <summary>Represents a Phone Number.</summary>
+        </member>
+        <member name="P:Azure.Communication.PhoneNumberIdentifier.RawId">
+            <summary>The optional raw id of the phone number.</summary>
+        </member>
+        <member name="P:Azure.Communication.PhoneNumberIdentifier.PhoneNumber">
+            <summary>The phone number in E.164 format.</summary>
+        </member>
+        <member name="M:Azure.Communication.PhoneNumberIdentifier.#ctor(System.String,System.String)">
+            <summary> Initializes a new instance of <see cref="T:Azure.Communication.PhoneNumberIdentifier" />.</summary>
+            <param name="phoneNumber">The phone number in E.164 format.</param>
+            <param name="rawId">Raw id of the phone number, optional.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when the <paramref name="phoneNumber" /> is null.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when the <paramref name="phoneNumber" /> is empty.
+            </exception>
+        </member>
+        <member name="M:Azure.Communication.PhoneNumberIdentifier.ToString">
+            <summary>Returns a string that represents the current object.</summary><returns>A string that represents the current object.</returns>
+        </member>
+        <member name="M:Azure.Communication.PhoneNumberIdentifier.GetHashCode">
+            <summary>Serves as the default hash function.</summary><returns>A hash code for the current object.</returns>
+        </member>
+        <member name="M:Azure.Communication.PhoneNumberIdentifier.Equals(Azure.Communication.CommunicationIdentifier)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="T:Azure.Communication.ThreadSafeRefreshableAccessTokenCache">
+            <summary>
+            Represents a type that caches an access token,
+            refreshes it when a request is made while the token is about to expire
+            and has optional mechanism for proactively refresh the token even if when it is not actively being used.
+            </summary>
+            <remarks>
+            Proactive refreshing does not retry if it fails.
+            </remarks>
+        </member>
+        <member name="T:Azure.Communication.UnknownIdentifier">
+            <summary>Represents an identifier of an unknown type. It will be encountered in communications with endpoints that are not identifiable by this version of the SDK.</summary>
+        </member>
+        <member name="P:Azure.Communication.UnknownIdentifier.Id">
+            <summary>The id of the endpoint.</summary>
+        </member>
+        <member name="M:Azure.Communication.UnknownIdentifier.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:Azure.Communication.UnknownIdentifier" />.
+            </summary>
+            <param name="id">Id of the endpoint.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when the <paramref name="id" /> is null.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when the <paramref name="id" /> is empty.
+            </exception>
+        </member>
+        <member name="M:Azure.Communication.UnknownIdentifier.ToString">
+            <summary>Returns a string that represents the current object.</summary><returns>A string that represents the current object.</returns>
+        </member>
+        <member name="M:Azure.Communication.UnknownIdentifier.GetHashCode">
+            <summary>Serves as the default hash function.</summary><returns>A hash code for the current object.</returns>
+        </member>
+        <member name="M:Azure.Communication.UnknownIdentifier.Equals(Azure.Communication.CommunicationIdentifier)">
+            <summary>Indicates whether the current object is equal to another object of the same type.</summary><param name="other">An object to compare with this object.</param><returns><see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="T:Azure.Core.Argument">
+            <summary>
+            Argument validation.
+            </summary>
+            <remarks>
+              <para>This class should be shared via source using Azure.Core.props and contain only common argument validation.
+                It is declared partial so that you can use the same familiar class name but extend it with project-specific validation.
+                To extend the functionality of this class, just declare your own partial <see cref="T:Azure.Core.Argument" /> class with project-specific methods.
+              </para>
+              <para>
+                Be sure to document exceptions thrown by these methods on your public methods.
+              </para>
+            </remarks>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNull``1(``0,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is null.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNull``1(System.Nullable{``0},System.String)">
+            <summary>
+            Throws if <paramref name="value" /> has not been initialized.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> has not been initialized.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0},System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is null or an empty collection.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentException"><paramref name="value" /> is an empty collection.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNullOrEmpty(System.String,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is null or an empty string.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentException"><paramref name="value" /> is an empty string.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotNullOrWhiteSpace(System.String,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is null, an empty string, or consists only of white-space characters.
+            </summary>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentException"><paramref name="value" /> is an empty string or consists only of white-space characters.</exception>
+            <exception cref="T:System.ArgumentNullException"><paramref name="value" /> is null.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertNotDefault``1(``0@,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is the default value for type <typeparamref name="T" />.
+            </summary>
+            <typeparam name="T">The type of structure to validate which implements <see cref="T:System.IEquatable`1" />.</typeparam>
+            <param name="value">The value to validate.</param>
+            <param name="name">The name of the parameter.</param>
+            <exception cref="T:System.ArgumentException"><paramref name="value" /> is the default value for type <typeparamref name="T" />.</exception>
+        </member>
+        <member name="M:Azure.Core.Argument.AssertInRange``1(``0,``0,``0,System.String)">
+            <summary>
+            Throws if <paramref name="value" /> is less than the <paramref name="minimum" /> or greater than the <paramref name="maximum" />.
+            </summary>
+            <typeparam name="T">The type of to validate which implements <see cref="T:System.IComparable`1" />.</typeparam>
+            <param name="value">The value to validate.</param>
+            <param name="minimum">The minimum value to compare.</param>
+            <param name="maximum">The maximum value to compare.</param>
+            <param name="name">The name of the parameter.</param>
+        </member>
+        <member name="T:Azure.Core.Pipeline.TaskExtensions.Enumerable`1">
+            <summary>
+            Both <see cref="T:Azure.Core.Pipeline.TaskExtensions.Enumerable`1" /> and <see cref="T:Azure.Core.Pipeline.TaskExtensions.Enumerator`1" /> are defined as public structs so that foreach can use duck typing
+            to call <see cref="M:Azure.Core.Pipeline.TaskExtensions.Enumerable`1.GetEnumerator" /> and avoid heap memory allocation.
+            Please don't delete this method and don't make these types private.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Azure.Core.Base64Url.Decode(System.String)">
+            <summary> Converts a Base64URL encoded string to a string.</summary>
+            <param name="encoded">The Base64Url encoded string containing UTF8 bytes for a string.</param>
+            <returns>The string represented by the Base64URL encoded string.</returns>
+        </member>
+        <member name="M:Azure.Core.Base64Url.Encode(System.Byte[])">
+            <summary>Encode a byte array as a Base64URL encoded string.</summary>
+            <param name="bytes">Raw byte input buffer.</param>
+            <returns>The bytes, encoded as a Base64URL string.</returns>
+        </member>
+        <member name="M:Azure.Core.Base64Url.DecodeString(System.String)">
+            <summary> Converts a Base64URL encoded string to a string.</summary>
+            <param name="encoded">The Base64Url encoded string containing UTF8 bytes for a string.</param>
+            <returns>The string represented by the Base64URL encoded string.</returns>
+        </member>
+        <member name="M:Azure.Core.Base64Url.EncodeString(System.String)">
+            <summary>Encode a string as a Base64URL encoded string.</summary>
+            <param name="value">String input buffer.</param>
+            <returns>The UTF8 bytes for the string, encoded as a Base64URL string.</returns>
+        </member>
+        <member name="M:Azure.Core.Pipeline.TaskExtensions.Enumerable`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator">
+            <summary>Returns an enumerator that iterates through the collection.</summary><returns>An enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:Azure.Core.Pipeline.TaskExtensions.Enumerable`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>Returns an enumerator that iterates through a collection.</summary><returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="P:Azure.Core.Pipeline.TaskExtensions.Enumerator`1.System#Collections#IEnumerator#Current">
+            <summary>Gets the element in the collection at the current position of the enumerator.</summary><returns>The element in the collection at the current position of the enumerator.</returns>
+        </member>
+    </members>
+</doc>

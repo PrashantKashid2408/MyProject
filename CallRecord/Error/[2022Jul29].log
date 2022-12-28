@@ -1,0 +1,90 @@
+LogTime : 14:29:32 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.Users (Authenticate(username=agentsix@wits.bzPassword=))
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : Cannot open server 'agcx' requested by the login. Client with IP address '45.127.45.113' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+ 
+Error Message GetMethod FullName : .ctor
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:29:47 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.Users (Authenticate(username=agentsix@wits.bzPassword=))
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : Cannot open server 'agcx' requested by the login. Client with IP address '45.127.45.113' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+ 
+Error Message GetMethod FullName : .ctor
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:30:00 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.Users (Authenticate(username=agentsix@wits.bzPassword=))
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : Cannot open server 'agcx' requested by the login. Client with IP address '45.127.45.113' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+ 
+Error Message GetMethod FullName : .ctor
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:35:34 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.Users (ChangeAvailabilityStatus(ID=14, StatusID=1,AgentCallerID=))
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The network connection was aborted by the local system.)
+ 
+Error Message GetMethod FullName : OnError
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:35:37 
+Module Name : DataAccess.Transaction (ExecuteTransaction)
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : Cannot open server 'agcx' requested by the login. Client with IP address '45.127.45.113' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:35:38 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 

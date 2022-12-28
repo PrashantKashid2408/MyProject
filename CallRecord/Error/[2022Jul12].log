@@ -1,0 +1,215 @@
+LogTime : 13:28:06 
+Module Name : AdaniCall.Business.DataAccess.Wrapper.Users (GetAvailableAgent(UserID:13))
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The specified network name is no longer available.)
+ 
+Error Message GetMethod FullName : .ctor
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:56:08 
+Module Name : DataAccess.Transaction (ExecuteTransaction)
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - The specified network name is no longer available.)
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:56:11 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:00:41 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:00:41 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:03:12 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:03:13 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:34:31 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:08:59 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 146
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:08:59 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 146
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:43:48 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 146
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:28:51 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:40:48 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:40:48 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Source Azure.Messaging.EventGrid,Message:Value cannot be null.
+Parameter name: EventType
+ 
+Error Message :    at Azure.Messaging.EventGrid.EventGridEvent..ctor(EventGridEventInternal eventGridEventInternal)
+   at Azure.Messaging.EventGrid.EventGridEvent.ParseMany(BinaryData json)
+   at AdaniCall.Controllers.API.RecordingController.<GetRecordingFile>d__12.MoveNext() in D:\Project\AdaniTeams\CallRecord\Controllers\API\RecordingController.cs:line 147
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 20:39:13 
+Module Name : DataAccess.Transaction (ExecuteTransaction)
+
+Error Source : .Net SqlClient Data Provider
+ 
+Error Message : The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 20:39:14 
+Module Name : DatabaseErrors (SetErrorInformation)
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\xml_Data\DatabaseErrors.xml'.
+ 
+ 
+ 
+======================================== 
+ 

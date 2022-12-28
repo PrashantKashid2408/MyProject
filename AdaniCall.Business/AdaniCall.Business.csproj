@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdaniCall.Entity\AdaniCall.Entity.csproj" />
+    <ProjectReference Include="..\AdaniCall.Resources\AdaniCall.Resources.csproj" />
+    <ProjectReference Include="..\AdaniCall.Utility\AdaniCall.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CommonUtilities">
+      <HintPath>..\CallRecord\References\CommonUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+
+</Project>

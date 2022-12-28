@@ -1,0 +1,290 @@
+LogTime : 12:39:17 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=19))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: B25c+2MJkEOWJgG9WGYSew.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 79456deb-0166-4119-9ab2-ec30b7820bb5
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:09:11 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:39:44 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=12))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: UA/rH2Tb0kWYNqOJUf5rYw.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: d940ab82-2476-4c94-bbfa-828e88eefcdc
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:09:36 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:42:15 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=17))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: OEaETtSvpkufs7zHv7EeNQ.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: f2222283-1c50-4e90-aca1-8e93b6c6a444
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:12:14 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:42:49 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=19))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: IL786fQBeEyNAG02k8X+1Q.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 9042b7c8-78e6-4cfe-96b3-f69ae3870ef1
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:12:48 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:42:51 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=17))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: X6Ji9xBN0UK59Mv9pymd4A.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: b393cdf0-c681-4de3-80b6-c8fb3ddab4b3
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:12:50 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:43:21 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=19))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: EmA9z9s2PUCIzYLokLX4wQ.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 988fc18f-3a99-40b3-b629-932bf7cf36de
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:13:20 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:43:33 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=17))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: fdgIjLSkoE6MnqA0dQqpCA.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 124957df-eb08-4f3c-9c2d-45b5d04e27c2
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:13:32 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:48:24 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=19))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: nzckXnJ78E+8WEh7+ha6+w.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 6bf61631-acc7-4abf-bb52-381ed7bd63a0
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:18:22 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:50:35 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=17))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: tYMji9a8jEWYSdPAzL/T/w.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 9495d698-6ed7-404a-a5df-d90dc11a26e2
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:20:34 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:53:26 
+Module Name : AdaniCall.Controllers.HomeController (Accept(UserId=19))
+
+Error Source : Azure.Communication.Identity
+ 
+Error Message : Service request failed.
+Status: 401 (Unauthorized)
+
+Content:
+{"error":{"code":"IdentityNotOwned","message":"Provided identity doesn't belong to the resource."}}
+
+Headers:
+Transfer-Encoding: chunked
+Request-Context: REDACTED
+MS-CV: 212UGQlQUkWXziFYQL1fHA.2.0
+Strict-Transport-Security: REDACTED
+x-ms-client-request-id: 3fd5286d-5dd7-4a3c-80b0-ffc8310fa210
+api-supported-versions: REDACTED
+X-Processing-Time: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Type: application/json
+Date: Tue, 08 Nov 2022 07:23:24 GMT
+
+ 
+ 
+ 
+======================================== 
+ 

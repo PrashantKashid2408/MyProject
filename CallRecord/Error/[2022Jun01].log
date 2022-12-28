@@ -1,0 +1,385 @@
+LogTime : 9:11:56 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:f9f0c938-f563-4fa3-a83e-b6f1f4c15137,UserID:11,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:12:04 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:12:09 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:19:07 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:16648f3b-fc64-4ff2-b7ce-b84aee5bf149,UserID:10,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:19:17 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:19:22 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:23:47 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:64d34610-2d3c-4ad2-a790-c220c08292a9,UserID:10,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:24:09 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:24:14 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:30:21 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:227b4ecc-27c6-4150-b424-ccb653acc87f,UserID:10,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:30:30 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 9:30:35 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:10:59 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:c92a1ce6-1e55-4a91-af8c-5df1a596bb58,UserID:11,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:11:07 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:11:12 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:35:30 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:70789855-7356-456a-8ed5-f6301b7bc0fd,UserID:11,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:35:40 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:35:45 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:55:24 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:bedd601f-0673-4e3c-89e5-28babe0b737b,UserID:11,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:55:32 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 10:55:37 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:06:59 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:c4beca33-8db7-4b34-b739-2eb2a46d29eb,UserID:10,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:07:09 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:07:15 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:09:05 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:9f6b2675-1d2d-4a8d-95c9-68a9e1dac1fe,UserID:10,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:09:16 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:09:21 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:36:50 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:4fd4eccb-984b-4959-8adb-d1154bebb113,UserID:12,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:36:59 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:37:04 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:40:40 AM 
+Module Name : AdaniCall.Controllers.HomeController (InsertAM(UniqueCallID:b4828452-ad2f-4af5-8721-b50f30d2d4c6,UserID:10,CallStatus=Connected))
+
+Error Source : mscorlib
+ 
+Error Message : Input string was not in a correct format.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:40:49 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 11:40:54 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 

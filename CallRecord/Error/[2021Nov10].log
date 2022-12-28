@@ -1,0 +1,964 @@
+LogTime : 12:16:51 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:17:25 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:17:57 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:18:06 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:05:18 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:07:25 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:08:17 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwd2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvbGlYR2gzU0FrVXVWMXZiMGUzZFRZUT9pPTc5JmU9NjM3NzE1ODg1ODc0NzQyOTA3,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: ea1ee8d3-fe0f-4283-a50f-96685e20d86f
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:38:16 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:09:57 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwd2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvWjliQWlldGtvVTJJYlVVdy1FWlJvUT9pPTM2JmU9NjM3NzE1OTA1NzEyODg5MjI5,recordingFormat:wav))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: 9f886698-46fe-4303-802b-fbf1f0cb7506
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:39:56 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:10:23 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwd2UtMDYuY29udi5za3lwZS5jb206NDQzL2NvbnYvX2VJZFFpdjJha0dNWHg1bjZFNHlrdz9pPTU1JmU9NjM3NzIwOTAzODUyODQ2MTAw,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 9488b805-b683-4c42-a61d-d83716832028
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:40:23 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:10:28 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwd2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvWjliQWlldGtvVTJJYlVVdy1FWlJvUT9pPTM2JmU9NjM3NzE1OTA1NzEyODg5MjI5,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: 6bee3103-185f-4a71-9ed2-bddb73baaba7
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:40:27 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:11:16 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwd2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvNGJud2ZEOTJCVVdVWjNETVNGOUJIdz9pPTM2JmU9NjM3NzE1OTA1NzEyODg5MjI5,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: ec79f53f-9a6e-440a-b8cd-7bf6c38d4e6c
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:41:15 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:11:18 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwd2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvNGJud2ZEOTJCVVdVWjNETVNGOUJIdz9pPTM2JmU9NjM3NzE1OTA1NzEyODg5MjI5,recordingFormat:wav))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: 15f7fb0c-40eb-4a63-a427-c55ed9f5bf30
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:41:17 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:22:00 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvY3JLa2pISGtBVTJpam9qRmJHajdiUT9pPTM4JmU9NjM3NzE2NTM2MjE0OTU3NDYw,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: 18ed0737-5823-4d2b-8f3c-113e99ba8fe6
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:51:59 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:22:24 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvc1Z5VUZWZ29Fa3FDeTFMbjE1MjBMQT9pPTM4JmU9NjM3NzE2NTM2MjE0OTU3NDYw,recordingFormat:wav))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Response Status Code 404. Reason Not Found. DiagCode: 404#2206
+Status: 404 (Not Found)
+ErrorCode: 9999
+
+Content:
+{"error":{"code":"9999","message":"Response Status Code 404. Reason Not Found. DiagCode: 404#2206"}}
+
+Headers:
+x-ms-client-request-id: fcd01d18-73e4-4590-b7a9-0e3b40239bb6
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 100
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:52:23 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:22:32 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvY3JLa2pISGtBVTJpam9qRmJHajdiUT9pPTM4JmU9NjM3NzE2NTM2MjE0OTU3NDYw,recordingFormat:wav))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: 59fc5e1d-2bbf-4cbb-980e-b8243e8ad279
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:52:31 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:22:53 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvc1Z5VUZWZ29Fa3FDeTFMbjE1MjBMQT9pPTM4JmU9NjM3NzE2NTM2MjE0OTU3NDYw,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: 1cd56da1-813b-44df-a517-bff31251872e
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:52:52 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:26:34 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvcUpzLUJscmZya0NrN3VUVHVya2FSQT9pPTEzJmU9NjM3NzE2NTUzNzY4NDUxMjc1,recordingFormat:wav))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: cd4fb81f-5571-49c3-9b92-670ec3fbca24
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:56:33 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:26:59 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvcUpzLUJscmZya0NrN3VUVHVya2FSQT9pPTEzJmU9NjM3NzE2NTUzNzY4NDUxMjc1,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: 3361df87-7b56-45ae-bba4-89995b5c0ad4
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 08:56:59 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:31:45 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwZWEtMDUuY29udi5za3lwZS5jb206NDQzL2NvbnYvS0cwbHVvRHNRRVdwZlJ4SUtOODcyUT9pPTYzJmU9NjM3NzIwMTY0MjM4NjYwNzYw,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: 421f69c9-dd10-4e46-a4b8-578a726c6991
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 09:01:44 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:32:12 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwZWEtMDUuY29udi5za3lwZS5jb206NDQzL2NvbnYvS0cwbHVvRHNRRVdwZlJ4SUtOODcyUT9pPTYzJmU9NjM3NzIwMTY0MjM4NjYwNzYw,recordingFormat:wav))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: e05ed4cb-923e-4685-91c6-2d4021c5096b
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 09:02:12 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 14:34:36 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:48:43 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:48:46 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:12:36 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:13:05 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:02:19 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:04:02 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:22:48 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:23:03 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:30:50 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvcnR4Q1loRVBaMFdzY0NVSEpsYjBIZz9pPTI5JmU9NjM3NzE2NTM2MTU3MDg5NTMw,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: a7fa5405-fb46-4ac4-8aed-12bb1ced0970
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 12:00:49 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:33:25 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDYuY29udi5za3lwZS5jb206NDQzL2NvbnYvOHVIaHZOSFFsa211cHNadjJGSmUzQT9pPTU0JmU9NjM3NzIwOTIxMjIwMzMxODEy,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 815dcbf1-da9a-4165-ab14-0b549c07e228
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 12:03:24 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:40:01 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWFzc2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvODRucXNscGlia09xbE8ybFUtVWpDZz9pPTIxJmU9NjM3NzE1OTAxNDEwNzEyMDM4,recordingFormat:wav))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: f351b063-9493-4962-8aad-efdb3ed8fbe0
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 12:10:00 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:40:31 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWFzc2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvODRucXNscGlia09xbE8ybFUtVWpDZz9pPTIxJmU9NjM3NzE1OTAxNDEwNzEyMDM4,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: c1c6fe0c-ec44-4f38-9fea-7114b5260ec1
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 12:10:31 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:40:55 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWFzc2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvcEhhcFBFa1dEVWliNHV1RVVOa3g2dz9pPTIxJmU9NjM3NzE1OTAxNDEwNzEyMDM4,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 4d38e03f-c7db-403c-b9f9-c07bdec6a794
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 12:10:54 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:51:41 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwd2UtMDYuY29udi5za3lwZS5jb206NDQzL2NvbnYvcUlGMVEwYnAxa211NmM1ZmUyMWZ5dz9pPTY3JmU9NjM3NzIwOTE2MDQ1NjMxMTc5,recordingFormat:wav))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: 67b9b4f2-ef83-43a1-b556-3efbcb309214
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 12:21:40 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 17:51:42 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWpwd2UtMDYuY29udi5za3lwZS5jb206NDQzL2NvbnYvcUlGMVEwYnAxa211NmM1ZmUyMWZ5dz9pPTY3JmU9NjM3NzIwOTE2MDQ1NjMxMTc5,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Action is invalid when call is not in Established state
+Status: 400 (Bad Request)
+ErrorCode: 8501
+
+Content:
+{"error":{"code":"8501","message":"Action is invalid when call is not in Established state"}}
+
+Headers:
+x-ms-client-request-id: a5217d66-b1d4-4e7f-9879-5ddff5a6df96
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 93
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 12:21:41 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:17:07 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:27:03 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:27:20 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 19:45:00 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 19:45:16 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 19:46:18 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWFzc2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvcHc4Qm1IVVZuMEtDUGNLRHUwYTJVQT9pPTEyMyZlPTYzNzcxNjUzMTk1NzAwNzY0NQ,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: e4f0a185-8149-4025-b415-59f0ab9ec34f
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 14:16:18 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 19:47:12 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWFzc2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvQS1PZFk2QzJBVTZETGU5MkJwMGxGdz9pPTEyMyZlPTYzNzcxNjUzMTk1NzAwNzY0NQ,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 2256ee51-e5c5-454a-b25a-98431449c513
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 14:17:11 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 19:51:05 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWFzc2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvUmd2ZUp0WXZhMG1BZ282LVFUaW5JZz9pPTEyMyZlPTYzNzcxNjUzMTk1NzAwNzY0NQ,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 8628cce8-14ea-4687-8738-04323b9fc0df
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 10 Nov 2021 14:21:04 GMT
+
+ 
+ 
+ 
+======================================== 
+ 

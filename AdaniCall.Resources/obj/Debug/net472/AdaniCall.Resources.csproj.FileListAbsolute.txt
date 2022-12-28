@@ -1,0 +1,13 @@
+D:\Project\AdaniTeams\AdaniCall.Resources\bin\Debug\net472\AdaniCall.Resources.dll
+D:\Project\AdaniTeams\AdaniCall.Resources\bin\Debug\net472\AdaniCall.Resources.pdb
+D:\Project\AdaniTeams\AdaniCall.Resources\bin\Debug\net472\de\AdaniCall.Resources.resources.dll
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\AdaniCall.Resources.Resource.resources
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\AdaniCall.Resources.Resource.de.resources
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\AdaniCall.Resources.csproj.GenerateResource.cache
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\AdaniCall.Resources.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\AdaniCall.Resources.AssemblyInfoInputs.cache
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\AdaniCall.Resources.AssemblyInfo.cs
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\AdaniCall.Resources.csproj.CoreCompileInputs.cache
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\de\AdaniCall.Resources.resources.dll
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\AdaniCall.Resources.dll
+D:\Project\AdaniTeams\AdaniCall.Resources\obj\Debug\net472\AdaniCall.Resources.pdb

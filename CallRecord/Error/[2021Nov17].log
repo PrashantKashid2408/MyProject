@@ -1,0 +1,1399 @@
+LogTime : 7:00:57 AM 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:01:08 AM 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : 
+ 
+Error Message GetFileLineNumber : 0
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:03:09 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:03:14 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:03:15 AM 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:03:27 AM 
+Module Name : AdaniCall.Controllers.API.RecordingAudioController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\home\site\wwwroot\AllFiles\Audio\0-wus-d9-b1958f1aef4869a8d87a20a8ab6b086a.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 7:03:27 AM 
+Module Name : AdaniCall.Controllers.API.RecordingAudioController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\home\site\wwwroot\AllFiles\Audio\0-wus-d9-b1958f1aef4869a8d87a20a8ab6b086a.wav'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:48:56 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:50:35 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:52:18 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:52:42 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:56:34 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d2-2dfd81e9b2c8776ecc7748118362e129.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:56:35 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d2-2dfd81e9b2c8776ecc7748118362e129.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:56:53 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d3-fdbbdea5ebcf61be0700468579a0a598.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:56:54 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d3-fdbbdea5ebcf61be0700468579a0a598.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:57:51 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:57:56 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:39 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d7-4748c9e122b21e58bdbe81e879c5d262.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:40 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d7-4748c9e122b21e58bdbe81e879c5d262.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:41 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d9-8462722e0ad7fb6fc0dbd7463a72620e.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:41 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d9-8462722e0ad7fb6fc0dbd7463a72620e.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:45 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d8-87394d74b9bbfadf1a4a19de0f27a470.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:47 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d8-87394d74b9bbfadf1a4a19de0f27a470.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:52 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:53 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:54 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:55 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:58 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d2-b06811f78c1bc817688de518c47c44e5.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:59 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d2-b06811f78c1bc817688de518c47c44e5.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:58:59 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d1-ae804d1be6f3784920b6d312c2097813.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:59:00 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d1-ae804d1be6f3784920b6d312c2097813.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 12:59:50 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDYuY29udi5za3lwZS5jb206NDQzL2NvbnYvTEl3emlKNW1vMHlYbkpfbFNDZ1k5dz9pPTQzJmU9NjM3NzI2OTUyMzUxMzgzODgy,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: de260c9f-ba2b-47e0-8323-620b4d6ed051
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 17 Nov 2021 07:29:49 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:00:38 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:00:59 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d10-84cb374209f556d3f945e6a083ae4cac.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:01:06 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d6-81fc04abc0e91e306ec6e7c7f4eb09b0.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:01:07 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d10-84cb374209f556d3f945e6a083ae4cac.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:01:09 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d6-81fc04abc0e91e306ec6e7c7f4eb09b0.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:02:06 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d10-d60ebaf3958921416ad9d647b06b3b4b.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:02:07 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d10-d60ebaf3958921416ad9d647b06b3b4b.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:04:43 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:05:41 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:06:10 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:06:12 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:06:13 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:06:13 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:06:14 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDguY29udi5za3lwZS5jb206NDQzL2NvbnYvb09kYkdBNjdwRXV4TEx4QkVmUE1FZz9pPTIwJmU9NjM3NzI2MzgwNTIxMzQzMTQ5,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 85fbb7ff-24eb-482c-8644-386ab1dfaaa3
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 17 Nov 2021 07:35:57 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:06:43 
+Module Name : AdaniCall.Controllers.API.RecordingController (ProcessFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d3-2251cbc627e27c843587f2b6595a6b7a.json'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:06:46 
+Module Name : AdaniCall.Controllers.API.RecordingController (ProcessFile())
+
+Error Source : mscorlib
+ 
+Error Message : Could not find a part of the path 'D:\Project\AdaniTeams\CallRecord\AllFiles\Video1\0-wus-d3-2251cbc627e27c843587f2b6595a6b7a.mp4'.
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:07:16 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:08:14 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:12:12 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:15:23 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:31:39 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:32:14 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:33:19 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:33:28 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 13:33:30 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:11:17 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:14:57 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:15:55 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:18:12 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:19:00 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:20:55 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:20:59 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDUuY29udi5za3lwZS5jb206NDQzL2NvbnYvTThMOWZzS2ZUa2lvUEJkTmhMb0FXQT9pPTE2JmU9NjM3NzI2MzgwMDk0MTMzODc1,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 113c91b4-403e-4509-986c-ac54f6267920
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 17 Nov 2021 09:50:58 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:20:59 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:21:00 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:21:01 
+Module Name : AdaniCall.Controllers.API.RecordingController (GetRecordingFile())
+
+Error Source : Azure.Messaging.EventGrid
+ 
+Error Message : Value cannot be null.
+Parameter name: EventType
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:53:13 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:53:38 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:53:50 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:54:05 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:55:45 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 15:56:47 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:10:50 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 16:13:37 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:16:00 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:19:06 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:19:42 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:21:15 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:21:34 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:22:33 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:23:02 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:37:10 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:37:30 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:37:49 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:40:54 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:41:14 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:42:03 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:54:10 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:54:31 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:56:26 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWtyY2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvWm90Vm9CNjQ0VUs2SDBHM3F3d1NQZz9pPTExJmU9NjM3NzI2MzgwNDkxNTkwMTcz,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: 92037cdd-2989-41d0-9971-e6ad5bf84dbf
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 17 Nov 2021 13:26:24 GMT
+
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:56:40 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:56:45 
+Module Name : AdaniCall.Models.Helper (SetSession(User user))
+
+Error Source : CallRecord
+ 
+Error Message : Object reference not set to an instance of an object.
+ 
+Error Message GetMethod FullName : SetSession
+ 
+Error Message GetFileName : Helper.cs
+ 
+Error Message GetFileLineNumber : 120
+ 
+ 
+ 
+======================================== 
+ 
+LogTime : 18:57:36 
+Module Name : AdaniCall.Controllers.API.RecordingController (StartRecordingAsync(sCallID=aHR0cHM6Ly9jb252LWFzc2UtMDcuY29udi5za3lwZS5jb206NDQzL2NvbnYvTV9Manh5LWRCMEdUMHNpTHl0M08wQT9pPTM1JmU9NjM3NzIxNzY5MjA3NjE4OTQ3,recordingFormat:))
+
+Error Source : Azure.Communication.CallingServer
+ 
+Error Message : Only one app of a single dialout app is supported in a call.
+Status: 400 (Bad Request)
+ErrorCode: 8559
+
+Content:
+{"error":{"code":"8559","message":"Only one app of a single dialout app is supported in a call."}}
+
+Headers:
+x-ms-client-request-id: ba6a87db-703c-4db2-a793-270ca030a625
+X-Microsoft-Skype-Chain-ID: REDACTED
+X-Cache: REDACTED
+X-Azure-Ref: REDACTED
+Content-Length: 98
+Content-Type: application/json; charset=utf-8
+Date: Wed, 17 Nov 2021 13:27:36 GMT
+
+ 
+ 
+ 
+======================================== 
+ 

@@ -1,0 +1,113 @@
+﻿@using AdaniCall.Entity.Enums;
+@using AdaniCall.Entity;
+@using AdaniCall.Business.BusinessFacade;
+@using AdaniCall.Resources;
+@using AdaniCall.Utility.Common;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- for Internet IE Explore new elements are render like HTML 5. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="YES" name="apple-touch-fullscreen">
+
+    <!-- for apple mobile capable -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")*@
+    @{
+        var _id = (HttpContext.Current.Session[KeyEnums.SessionKeys.UserId.ToString()] != null ? Convert.ToString(HttpContext.Current.Session[KeyEnums.SessionKeys.UserId.ToString()]) : "");
+        var _username = (HttpContext.Current.Session[KeyEnums.SessionKeys.UserEmailID.ToString()] != null ? Convert.ToString(HttpContext.Current.Session[KeyEnums.SessionKeys.UserEmailID.ToString()]) : "");
+        var _usernameTrimmed = !string.IsNullOrWhiteSpace(_username) && _username.Length > 17 ? _username.Trim().Substring(0, 17) + "..." : _username;
+        var _name = (HttpContext.Current.Session[KeyEnums.SessionKeys.FirstName.ToString()] != null ? Convert.ToString(HttpContext.Current.Session[KeyEnums.SessionKeys.FirstName.ToString()]) : "") + " " + (HttpContext.Current.Session[KeyEnums.SessionKeys.LastName.ToString()] != null ? Convert.ToString(HttpContext.Current.Session[KeyEnums.SessionKeys.LastName.ToString()]) : "");
+        //var _nameTrimmed = !string.IsNullOrWhiteSpace(_name) && _name.Length > 17 ? _name.Trim().Substring(0, 17) + "..." : _name;
+        var _nameTrimmed = _name;
+        var _role = (HttpContext.Current.Session[KeyEnums.SessionKeys.UserRole.ToString()] != null ? Convert.ToString(HttpContext.Current.Session[KeyEnums.SessionKeys.UserRole.ToString()]) : "");
+        var _logo = (HttpContext.Current.Session[KeyEnums.SessionKeys.UserLogo.ToString()] != null ? Convert.ToString(HttpContext.Current.Session[KeyEnums.SessionKeys.UserLogo.ToString()]) : "");
+
+        if (_id == "")
+        {
+            Response.Redirect("/User/Login");
+        }
+        if (_logo.Contains("no-logo"))
+        {
+            _logo = "";
+        }
+        if (_logo != "")
+        {
+            _logo = _logo.Replace("[UserID]", _id.ToString());
+        }
+        else
+        {
+            _logo = "/Content/images/avatar5.png";
+        }
+    }
+</head>
+<body class="sidebar-collapse">
+    @if (_role == Convert.ToString((byte)RoleEnums.Role.Agent))
+    {
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <!-- Left navbar links -->
+        @*<ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            </li>
+        </ul>*@
+
+        <!-- Right navbar links -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown user user-menu">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    <img src="~/Content/dist/img/user2-160x160.jpg" class="user-image img-circle elevation-2" alt=" user image">
+                    <span class="hidden-xs">@Resource.lbl_profile</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                    <!-- User image -->
+                    <li class="user-header bg-primary" style="background-color: #dde6ef !important;">
+                        <img src="~/Content/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                        <p style="color: #232323; font-size: 15px;">
+                            @_nameTrimmed
+                        </p>
+                    </li>
+                    <!-- Menu Body -->
+                    <!-- Menu Footer-->
+                    <li class="user-footer">
+                        @*<div class="pull-left">
+                                <a href="/User/Portfolio" class="btn btn-default btn-flat">Profile</a>
+                            </div>*@
+                        <div class="pull-right">
+                            <a href="/User/Logout" class="btn btn-default">Sign out</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    }
+    <div class="container body-content mainContainer-body-content" style="padding:0px;">
+        @RenderBody()
+        @*<hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - GoPhygital</p>
+        </footer>*@
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
